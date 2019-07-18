@@ -17,6 +17,6 @@ Here list all the available platforms:
 
 * [platforms/win32/hdinfo.exe](platforms/win32/hdinfo.exe)
 * [platforms/win_amd64/hdinfo.exe](platforms/win_amd64/hdinfo.exe)
-* [platforms/linux_i386/hdinfo.exe](platforms/linux_i386/hdinfo)
-* [platforms/linux_x86_64/hdinfo.exe](platforms/linux_x86_64/hdinfo)
-* [platforms/macosx_x86_64/hdinfo.exe](platforms/macosx_x86_64/hdinfo)
+* [platforms/linux_i386/hdinfo](platforms/linux_i386/hdinfo)
+* [platforms/linux_x86_64/hdinfo](platforms/linux_x86_64/hdinfo)
+* [platforms/macosx_x86_64/hdinfo](platforms/macosx_x86_64/hdinfo)
