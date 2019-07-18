@@ -1,17 +1,17 @@
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
-    jondy@192.168.121.103:/home/jondy/workspace/pyarmor/src/platforms/win_amd64/_pytransform.dll \
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/win_amd64/_pytransform.dll \
     ./win_amd64
 
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
-    jondy@192.168.121.103:/home/jondy/workspace/pyarmor/src/platforms/linux_x86_64/_pytransform.so \
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/linux_x86_64/_pytransform.so \
     ./linux_x86_64
 
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
-    jondy@192.168.121.103:/home/jondy/workspace/pyarmor/src/platforms/linux_i386/_pytransform.so \
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/linux_i386/_pytransform.so \
     ./linux_i386
 
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
-    jondy@192.168.121.103:/home/jondy/workspace/pyarmor/src/platforms/macosx_x86_64/_pytransform.dylib \
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/macosx_x86_64/_pytransform.dylib \
     ./macosx_x86_64
 
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
