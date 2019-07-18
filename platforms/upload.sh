@@ -21,7 +21,7 @@ done
 # scp -i ~/.ssh/aliyun_id_rsa README.html $prefix/platforms.html
 
 # Update hash of dynamic library
-python make-hash.py
+# python make-hash.py
 
 echo "Upload index.json to $prefix/"
 scp -i ~/.ssh/aliyun_id_rsa index.json $prefix/

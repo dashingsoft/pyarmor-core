@@ -4,8 +4,11 @@ import hashlib
 import json
 import os
 
-TEMPLATE = r'''sed -i -e '/"path": "{name}"/,+6 s/"sha256":.*$/"sha256": "{vdata}",/g' {filename}'''
+from datetime import datetime
 
+
+TEMPLATE = r'''sed -i -e '/"path": "{name}"/,+6 s/"sha256":.*$/"sha256": "{vdata}",/g' {filename}'''
+UPDATE_TIME = r'''sed -i -e 's/"build_time": .*$/"build_time:": "{time}",/g' {filename}'''
 
 def make_hash256(filename):
     with open(filename) as f:
@@ -26,4 +29,10 @@ def make_hash256(filename):
 
 
 if __name__ == '__main__':
-    make_hash256('index.json')
+    filename = 'index.json'
+    make_hash256(filename)
+
+    cmd = UPDATE_TIME.format(time=datetime.today().strftime('%Y-%m-%d %H:%M:%S'),
+                             filename=filename)
+    print(cmd)
+    os.system(cmd)
