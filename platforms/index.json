@@ -11,7 +11,7 @@
             "machines": ["x86"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dll",
-            "sha256": "d03b3bd7b401507a99c15a03b45bb0f474bbc3be4e2bb19a2096de2643c7cf9c",
+            "sha256": "9fbc05f926985ce09ecbdbb66cc89197432254d90bd6dbc644e3f3405cb53558",
             "remark": "Cross compile by x86_64-w64-mingw32-gcc in cygwin"
         },
         {
