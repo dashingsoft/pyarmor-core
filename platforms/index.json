@@ -105,6 +105,15 @@
             "remark": "64-bit Armv8 Cortex-A, little-endian"
         },
         {
+            "path": "android.aarch64",
+            "platname": "linux64",
+            "machines": ["aarch64"],
+            "features": [],
+            "filename": "_pytransform.so",
+            "sha256": "88490b89f7b4adb5c16acd0718afdc9e0dd19a84866f0aa5f68da234725d1c16",
+            "remark": "Build by android-ndk-r20/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang"
+        },
+        {
             "path": "ppc64le",
             "platname": "linux64",
             "machines": ["ppc64le"],
