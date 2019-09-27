@@ -59,6 +59,10 @@ scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
     ./alpine
 
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
+    jondy@192.168.121.103:/home/jondy/workspace/pytransform/cross-platform/alpine.arm/.libs/_pytransform.so \
+    ./alpine.arm
+
+scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
     jondy@192.168.121.103:/home/jondy/workspace/pytransform/cross-platform/android.aarch64/.libs/_pytransform.so \
     ./android.aarch64
 
