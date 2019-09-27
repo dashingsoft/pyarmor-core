@@ -150,6 +150,15 @@
             "remark": "Built with musl-1.1.21 for Docker"
         },
         {
+            "path": "alpine.arm",
+            "platname": "alpine_linux",
+            "machines": ["arm"],
+            "features": [],
+            "filename": "_pytransform.so",
+            "sha256": "eb314e0f79eb95ff4bbc131b356a12fde0c8c9cff2ed3e9283cbf0a83d56017e",
+            "remark": "Built with musl-1.1.21 for Docker"
+        },
+        {
             "path": "poky-i586",
             "platname": "poky_linux",
             "machines": ["x86", "i386", "i486", "i586", "i686"],
