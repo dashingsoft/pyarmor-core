@@ -1,4 +1,4 @@
-prefix="root@snsoffice.com:/var/www/pyarmor/downloads/platforms"
+prefix="root@snsoffice.com:/var/www/pyarmor/downloads/latest"
 
 for path in ./ ; do
     echo "Search path $path ..."
