@@ -81,7 +81,7 @@
             "path": "armv7",
             "platname": "linux32",
             "machines": ["armv7l"],
-            "features": [],
+            "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
             "sha256": "aef022feb0241cf9be0fd2644deaf35314066e9c14368c54dc85fac23709991d",
             "remark": "32-bit Armv7 Cortex-A, hard-float, little-endian"
@@ -90,7 +90,7 @@
             "path": "armv8.32-bit",
             "platname": "linux32",
             "machines": ["aarch32"],
-            "features": [],
+            "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
             "sha256": "90eb0c172728cbe4d1527a23f57c7437201dcd321d444eeda62de03c9d85b0f4",
             "remark": "32-bit Armv8 Cortex-A, hard-float, little-endian"
@@ -99,7 +99,7 @@
             "path": "armv8.64-bit",
             "platname": "linux64",
             "machines": ["aarch64"],
-            "features": [],
+            "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
             "sha256": "be37b8d82354287113d3ce26a30edbc67ff73c8d7c44b2adfef6b2dccca14627",
             "remark": "64-bit Armv8 Cortex-A, little-endian"
