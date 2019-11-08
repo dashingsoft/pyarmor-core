@@ -5,7 +5,7 @@ for path in ./ ; do
     echo "-----------------------------------------"
     for src in $(find $path -name _pytransform.*) ; do
         platform=$(basename $(dirname $src))
-        if [[ "$platform" == "x64" || "$platform" == "x86" ]] ; then
+        if [[ "$platform" == "x64" || "$platform" == "x86" || "$platform" == "simple" ]] ; then
           platform=$(dirname $src)
           platform=${platform#./}
         fi

@@ -166,6 +166,52 @@
             "filename": "_pytransform.so",
             "sha256": "8e2cbb3b6f521cc7feca665ac646bcbfad2a66b8ac9dfd9eb26ffa3665d97c5f",
             "remark": "Work for Inel Quark, Cross compile by i586-poky-linux"
+        },
+        {
+            "path": "win32/simple",
+            "platname": "windows32",
+            "machines": ["x86"],
+            "features": [],
+            "filename": "_pytransform.dll",
+            "sha256": "66ba4bad2d70aa48ff9775cb112aadced529d44e9f9bfffc5045af3f6c8bd6cc",
+            "remark": "Simple and quick, no any feature"
+        },
+        {
+            "path": "win_amd64/simple",
+            "platname": "windows64",
+            "machines": ["amd64", "x86_64", "x64"],
+            "features": [],
+            "filename": "_pytransform.dll",
+            "sha256": "6f719d64fdeb4998bd175b44c4a1ce4b75bb96728d0b3eb23d43af961d5358ad",
+            "remark": "Simple and quick, no any feature"
+        },
+        {
+            "path": "linux_i386/simple",
+            "platname": "linux32",
+            "machines": ["i386", "i486", "i586", "i686", "x86"],
+            "features": [],
+            "filename": "_pytransform.so",
+            "sha256": "6624362c7caa857e5f2382690c445b66f70095ae4b5573dc29b35f06ed238396",
+            "remark": "Simple and quick, no any feature"
+        },
+        {
+            "path": "linux_x86_64",
+            "platname": "linux64",
+            "machines": ["x86_64", "amd64", "x64"],
+            "features": [],
+            "filename": "_pytransform.so",
+            "sha256": "c2c69590df863615f8bac598f74e0cc5f5191d9ee21cf13679fe612b240406cd",
+            "remark": "Simple and quick, no any feature"
+        },
+        {
+            "path": "macosx_x86_64",
+            "platname": "darwin64",
+            "machines": ["x86_64", "intel", "amd64", "x64"],
+            "features": [],
+            "filename": "_pytransform.dylib",
+            "sha256": "f81a3bd5337334e93bbbbd52515d97687ae871e93edd6427573254d9274eec7e",
+            "remark": "Simple and quick, no any feature"
         }
+
     ]
 }
