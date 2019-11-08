@@ -168,7 +168,7 @@
             "remark": "Work for Inel Quark, Cross compile by i586-poky-linux"
         },
         {
-            "path": "win32/simple",
+            "path": "windows32/simple",
             "platname": "windows32",
             "machines": ["x86"],
             "features": [],
@@ -177,7 +177,7 @@
             "remark": "Simple and quick, no any feature"
         },
         {
-            "path": "win_amd64/simple",
+            "path": "windows64/simple",
             "platname": "windows64",
             "machines": ["amd64", "x86_64", "x64"],
             "features": [],
@@ -186,7 +186,7 @@
             "remark": "Simple and quick, no any feature"
         },
         {
-            "path": "linux_i386/simple",
+            "path": "linux32/simple",
             "platname": "linux32",
             "machines": ["i386", "i486", "i586", "i686", "x86"],
             "features": [],
@@ -195,7 +195,7 @@
             "remark": "Simple and quick, no any feature"
         },
         {
-            "path": "linux_x86_64",
+            "path": "linux64/simple",
             "platname": "linux64",
             "machines": ["x86_64", "amd64", "x64"],
             "features": [],
@@ -204,7 +204,7 @@
             "remark": "Simple and quick, no any feature"
         },
         {
-            "path": "macosx_x86_64",
+            "path": "darwin64/simple",
             "platname": "darwin64",
             "machines": ["x86_64", "intel", "amd64", "x64"],
             "features": [],
