@@ -200,7 +200,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "c2c69590df863615f8bac598f74e0cc5f5191d9ee21cf13679fe612b240406cd",
+            "sha256": "5a859d4dc34b9b5cb859aee2d536fd66f77175033917f88f3465bc3f68614d56",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -209,7 +209,7 @@
             "machines": ["x86_64", "intel", "amd64", "x64"],
             "features": [],
             "filename": "_pytransform.dylib",
-            "sha256": "f81a3bd5337334e93bbbbd52515d97687ae871e93edd6427573254d9274eec7e",
+            "sha256": "29b5c822f34363bc7da21ddc37c134acf97c88b0c6effc467dadd75bff56488f",
             "remark": "Simple and quick, no any feature"
         }
 
