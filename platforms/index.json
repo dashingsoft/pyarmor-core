@@ -7,6 +7,7 @@
     "platforms": [
         {
             "id": "windows.x86.7",
+            "name": "windows.x86",
             "platform": "windows",
             "path": "win32",
             "machines": ["x86"],
@@ -17,6 +18,7 @@
         },
         {
             "id": "windows.x86_64.7",
+            "name": "windows.x86_64",
             "platform": "windows",
             "path": "win_amd64",
             "machines": ["amd64", "x86_64", "x64"],
@@ -37,6 +39,7 @@
         },
         {
             "id": "linux.x86_64.7",
+            "name": "linux.x86_64",
             "platform": "linux",
             "path": "linux_x86_64",
             "machines": ["x86_64", "amd64", "x64"],
@@ -47,6 +50,7 @@
         },
         {
             "id": "darwin.x86_64.7",
+            "name": "darwin.x86_64",
             "platform": "darwin",
             "path": "macosx_x86_64",
             "machines": ["x86_64", "intel", "amd64", "x64"],
@@ -57,6 +61,7 @@
         },
         {
             "id": "vs2015.x86.0",
+            "name": "vs2015.x86",
             "platform": "windows",
             "path": "vs2015/x86",
             "machines": ["x86"],
@@ -67,6 +72,7 @@
         },
         {
             "id": "vs2015.x86_64.0",
+            "name": "vs2015.x86_64",
             "platform": "windows",
             "path": "vs2015/x64",
             "machines": ["x64", "amd64"],
@@ -77,6 +83,7 @@
         },
         {
             "id": "linux.arm.0",
+            "name": "linux.arm",
             "platform": "linux",
             "path": "armv5",
             "machines": ["armv5"],
@@ -87,6 +94,7 @@
         },
         {
             "id": "linux.armv7.3",
+            "name": "linux.armv7",
             "platform": "linux",
             "path": "armv7",
             "machines": ["armv7l"],
@@ -97,6 +105,7 @@
         },
         {
             "id": "linux.aarch32.3",
+            "name": "linux.aarch32",
             "platform": "linux",
             "path": "armv8.32-bit",
             "machines": ["aarch32"],
@@ -117,6 +126,7 @@
         },
         {
             "id": "android.aarch64.0",
+            "name": "android.aarch64",
             "platform": "android",
             "path": "android.aarch64",
             "machines": ["aarch64"],
@@ -147,6 +157,7 @@
         },
         {
             "id": "freebsd.x86_64.0",
+            "name": "freebsd.x86_64",
             "platform": "freebsd",
             "path": "freebsd",
             "machines": ["x86_64"],
@@ -157,6 +168,7 @@
         },
         {
             "id": "alpine.x86_64.0",
+            "name": "alpine.x86_64",
             "platform": "alpine",
             "path": "alpine",
             "machines": ["x86_64"],
@@ -167,6 +179,7 @@
         },
         {
             "id": "alpine.arm.0",
+            "name": "alpine.arm",
             "platform": "alpine",
             "path": "alpine.arm",
             "machines": ["armv5t", "armv7l"],
@@ -177,6 +190,7 @@
         },
         {
             "id": "poky.x86.0",
+            "name": "poky.x86",
             "platform": "linux",
             "path": "poky-i586",
             "machines": ["x86", "i386", "i486", "i586", "i686"],
@@ -187,6 +201,7 @@
         },
         {
             "id": "windows.x86.0",
+            "name": "windows.x86",
             "platform": "windows",
             "path": "windows32/simple",
             "machines": ["x86"],
@@ -197,6 +212,7 @@
         },
         {
             "id": "windows.x86_64.0",
+            "name": "windows.x86_64",
             "platform": "windows",
             "path": "windows64/simple",
             "machines": ["amd64", "x86_64", "x64"],
@@ -207,6 +223,7 @@
         },
         {
             "id": "linux.x86.0",
+            "name": "linux.x86",
             "platform": "linux",
             "path": "linux32/simple",
             "machines": ["i386", "i486", "i586", "i686", "x86"],
@@ -217,6 +234,7 @@
         },
         {
             "id": "linux.x86_64.0",
+            "name": "linux.x86_64",
             "platform": "linux",
             "path": "linux64/simple",
             "machines": ["x86_64", "amd64", "x64"],
@@ -227,6 +245,7 @@
         },
         {
             "id": "darwin.x86_64.0",
+            "name": "darwin.x86_64",
             "platform": "darwin",
             "path": "darwin64/simple",
             "machines": ["x86_64", "intel", "amd64", "x64"],
