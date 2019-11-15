@@ -29,6 +29,7 @@
         },
         {
             "id": "linux.x86.7",
+            "name": "linux.x86",
             "platform": "linux",
             "path": "linux_i386",
             "machines": ["i386", "i486", "i586", "i686", "x86"],
@@ -116,6 +117,7 @@
         },
         {
             "id": "linux.aarch64.3",
+            "name": "linux.aarch64",
             "platform": "linux",
             "path": "armv8.64-bit",
             "machines": ["aarch64"],
@@ -137,6 +139,7 @@
         },
         {
             "id": "linux.ppc64.0",
+            "name": "linux.ppc64",
             "platform": "linux",
             "path": "ppc64le",
             "machines": ["ppc64le"],
@@ -147,6 +150,7 @@
         },
         {
             "id": "darwin.arm64.0",
+            "name": "darwin.arm64",
             "platform": "darwin",
             "path": "ios.arm64",
             "machines": ["arm64"],
