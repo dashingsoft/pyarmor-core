@@ -6,8 +6,9 @@
     "remark": [],
     "platforms": [
         {
+            "id": "windows.x86.7",
+            "platform": "windows",
             "path": "win32",
-            "platname": "windows32",
             "machines": ["x86"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dll",
@@ -15,8 +16,9 @@
             "remark": "Cross compile by x86_64-w64-mingw32-gcc in cygwin"
         },
         {
+            "id": "windows.x86_64.7",
+            "platform": "windows",
             "path": "win_amd64",
-            "platname": "windows64",
             "machines": ["amd64", "x86_64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dll",
@@ -24,8 +26,9 @@
             "remark": "Cross compile by x86_64-w64-mingw32-gcc in cygwin"
         },
         {
+            "id": "linux.x86.7",
+            "platform": "linux",
             "path": "linux_i386",
-            "platname": "linux32",
             "machines": ["i386", "i486", "i586", "i686", "x86"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.so",
@@ -33,8 +36,9 @@
             "remark": "Built by GCC"
         },
         {
+            "id": "linux.x86_64.7",
+            "platform": "linux",
             "path": "linux_x86_64",
-            "platname": "linux64",
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.so",
@@ -42,8 +46,9 @@
             "remark": "Built by GCC"
         },
         {
+            "id": "darwin.x86_64.7",
+            "platform": "darwin",
             "path": "macosx_x86_64",
-            "platname": "darwin64",
             "machines": ["x86_64", "intel", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dylib",
@@ -51,8 +56,9 @@
             "remark": "Built by CLang with MacOSX10.11"
         },
         {
+            "id": "vs2015.x86.0",
+            "platform": "windows",
             "path": "vs2015/x86",
-            "platname": "vs2015",
             "machines": ["x86"],
             "features": [],
             "filename": "_pytransform.dll",
@@ -60,8 +66,9 @@
             "remark": "Built by VS2015"
         },
         {
+            "id": "vs2015.x86_64.0",
+            "platform": "windows",
             "path": "vs2015/x64",
-            "platname": "vs2015",
             "machines": ["x64", "amd64"],
             "features": [],
             "filename": "_pytransform.dll",
@@ -69,8 +76,9 @@
             "remark": "Built by VS2015"
         },
         {
+            "id": "linux.arm.0",
+            "platform": "linux",
             "path": "armv5",
-            "platname": "linux32",
             "machines": ["armv5"],
             "features": [],
             "filename": "_pytransform.so",
@@ -78,8 +86,9 @@
             "remark": "32-bit Armv5 (arm926ej-s)"
         },
         {
+            "id": "linux.armv7.3",
+            "platform": "linux",
             "path": "armv7",
-            "platname": "linux32",
             "machines": ["armv7l"],
             "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
@@ -87,8 +96,9 @@
             "remark": "32-bit Armv7 Cortex-A, hard-float, little-endian"
         },
         {
+            "id": "linux.aarch32.3",
+            "platform": "linux",
             "path": "armv8.32-bit",
-            "platname": "linux32",
             "machines": ["aarch32"],
             "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
@@ -96,8 +106,9 @@
             "remark": "32-bit Armv8 Cortex-A, hard-float, little-endian"
         },
         {
+            "id": "linux.aarch64.3",
+            "platform": "linux",
             "path": "armv8.64-bit",
-            "platname": "linux64",
             "machines": ["aarch64"],
             "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
@@ -105,8 +116,9 @@
             "remark": "64-bit Armv8 Cortex-A, little-endian"
         },
         {
+            "id": "android.aarch64.0",
+            "platform": "android",
             "path": "android.aarch64",
-            "platname": "linux64",
             "machines": ["aarch64"],
             "features": [],
             "filename": "_pytransform.so",
@@ -114,8 +126,9 @@
             "remark": "Build by android-ndk-r20/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang"
         },
         {
+            "id": "linux.ppc64.0",
+            "platform": "linux",
             "path": "ppc64le",
-            "platname": "linux64",
             "machines": ["ppc64le"],
             "features": [],
             "filename": "_pytransform.so",
@@ -123,8 +136,9 @@
             "remark": "For POWER8"
         },
         {
+            "id": "darwin.arm64.0",
+            "platform": "darwin",
             "path": "ios.arm64",
-            "platname": "darwin64",
             "machines": ["arm64"],
             "features": [],
             "filename": "_pytransform.dylib",
@@ -132,8 +146,9 @@
             "remark": "Built by CLang with iPhoneOS9.3.sdk"
         },
         {
+            "id": "freebsd.x86_64.0",
+            "platform": "freebsd",
             "path": "freebsd",
-            "platname": "freebsd",
             "machines": ["x86_64"],
             "features": [],
             "filename": "_pytransform.so",
@@ -141,8 +156,9 @@
             "remark": "Not support harddisk serial number"
         },
         {
+            "id": "alpine.x86_64.0",
+            "platform": "alpine",
             "path": "alpine",
-            "platname": "alpine_linux",
             "machines": ["x86_64"],
             "features": [],
             "filename": "_pytransform.so",
@@ -150,8 +166,9 @@
             "remark": "Built with musl-1.1.21 for Docker"
         },
         {
+            "id": "alpine.arm.0",
+            "platform": "alpine",
             "path": "alpine.arm",
-            "platname": "alpine_linux",
             "machines": ["armv5t", "armv7l"],
             "features": [],
             "filename": "_pytransform.so",
@@ -159,8 +176,9 @@
             "remark": "Built with musl-1.1.21, 32 bit Armv5T, hard-float, little-endian"
         },
         {
+            "id": "poky.x86.0",
+            "platform": "linux",
             "path": "poky-i586",
-            "platname": "poky_linux",
             "machines": ["x86", "i386", "i486", "i586", "i686"],
             "features": [],
             "filename": "_pytransform.so",
@@ -168,8 +186,9 @@
             "remark": "Work for Inel Quark, Cross compile by i586-poky-linux"
         },
         {
+            "id": "windows.x86.0",
+            "platform": "windows",
             "path": "windows32/simple",
-            "platname": "windows32",
             "machines": ["x86"],
             "features": [],
             "filename": "_pytransform.dll",
@@ -177,8 +196,9 @@
             "remark": "Simple and quick, no any feature"
         },
         {
+            "id": "windows.x86_64.0",
+            "platform": "windows",
             "path": "windows64/simple",
-            "platname": "windows64",
             "machines": ["amd64", "x86_64", "x64"],
             "features": [],
             "filename": "_pytransform.dll",
@@ -186,8 +206,9 @@
             "remark": "Simple and quick, no any feature"
         },
         {
+            "id": "linux.x86.0",
+            "platform": "linux",
             "path": "linux32/simple",
-            "platname": "linux32",
             "machines": ["i386", "i486", "i586", "i686", "x86"],
             "features": [],
             "filename": "_pytransform.so",
@@ -195,8 +216,9 @@
             "remark": "Simple and quick, no any feature"
         },
         {
+            "id": "linux.x86_64.0",
+            "platform": "linux",
             "path": "linux64/simple",
-            "platname": "linux64",
             "machines": ["x86_64", "amd64", "x64"],
             "features": [],
             "filename": "_pytransform.so",
@@ -204,8 +226,9 @@
             "remark": "Simple and quick, no any feature"
         },
         {
+            "id": "darwin.x86_64.0",
+            "platform": "darwin",
             "path": "darwin64/simple",
-            "platname": "darwin64",
             "machines": ["x86_64", "intel", "amd64", "x64"],
             "features": [],
             "filename": "_pytransform.dylib",
