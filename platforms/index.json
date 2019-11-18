@@ -1,5 +1,5 @@
 {
-    "version": "r6.0",
+    "version": "r6.0.1",
     "build_time:": "2019-11-14 16:36:20",
     "compatible": "PyArmor >= 5.6.0",
     "changes": [],
