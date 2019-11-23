@@ -204,6 +204,17 @@
             "remark": "Work for Inel Quark, Cross compile by i586-poky-linux"
         },
         {
+            "id": "centos6.x86_64.7",
+            "name": "centos.x86_64",
+            "platform": "linux",
+            "path": "centos6.x86_64",
+            "machines": ["x86_64", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "ADV"],
+            "filename": "_pytransform.so",
+            "sha256": "51426ec5ebec946e30fc93225ea75577800e89e5ced134f383e73d58ef58d7a4",
+            "remark": "Cloned from linux.x86_64, patched for glibc < 2.14"
+        },
+        {
             "id": "windows.x86.0",
             "name": "windows.x86",
             "platform": "windows",
