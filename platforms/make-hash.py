@@ -29,6 +29,9 @@ def make_hash256(filename):
 
 
 if __name__ == '__main__':
+    print('Patch centos6')
+    os.system('bash patch-centos6.sh')
+
     filename = 'index.json'
     make_hash256(filename)
 
