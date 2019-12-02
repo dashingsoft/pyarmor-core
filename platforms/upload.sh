@@ -5,10 +5,10 @@ for path in ./ ; do
     echo "-----------------------------------------"
     for src in $(find $path -name _pytransform.*) ; do
         platform=$(basename $(dirname $src))
-        if [[ "$platform" == "x64" || "$platform" == "x86" || "$platform" == "simple" ]] ; then
-          platform=$(dirname $src)
-          platform=${platform#./}
-        fi
+        # if [[ "$platform" == "x64" || "$platform" == "x86" ]] ; then
+        #   platform=$(dirname $src)
+        #   platform=${platform#./}
+        # fi
         dest="$prefix/$platform"
         echo "Upload $src to $dest"
         scp -i ~/.ssh/aliyun_id_rsa $src $dest
