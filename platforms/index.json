@@ -1,6 +1,6 @@
 {
-    "version": "r7.1",
-    "build_time:": "2019-11-25 12:52:20",
+    "version": "r8.2",
+    "build_time:": "2019-12-02 17:12:52",
     "compatible": "PyArmor >= 5.6.0",
     "changes": [],
     "remark": [],
@@ -13,7 +13,7 @@
             "machines": ["x86"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dll",
-            "sha256": "b56d1bad0ce9b2865029f561cb97bd0ed6ebc84a3e0674ea156881f02b801e7f",
+            "sha256": "e74af5e2d58300caad1670734f8bdd0a68211384be0c30b017ba4ff3808eabc4",
             "remark": "Cross compile by x86_64-w64-mingw32-gcc in cygwin"
         },
         {
@@ -24,7 +24,7 @@
             "machines": ["amd64", "x86_64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dll",
-            "sha256": "694848a91bc6765816dddc1dc8647b0c8e9847838e290cdfacf5b38fdc307dd8",
+            "sha256": "0a2a05b0ce3874bfd1b8a14b109664c824ce4168b481ca4fec815179b75c8791",
             "remark": "Cross compile by x86_64-w64-mingw32-gcc in cygwin"
         },
         {
@@ -35,7 +35,7 @@
             "machines": ["i386", "i486", "i586", "i686", "x86"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.so",
-            "sha256": "a8fadef3797fe4a532332f49fe5b9c252442c02851ea83555af0f9610c73b6c0",
+            "sha256": "3cfefa5978307e6ce66b45ad0a5c382c02ad028d89931a8d4d707fc7f7d5ca18",
             "remark": "Built by GCC"
         },
         {
@@ -46,7 +46,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.so",
-            "sha256": "f3b1f4f43c5d2d485a225ff8b3de3a4f402610cf2b08af8cf286e33159e6a6f9",
+            "sha256": "d4a806456f97b4ad3989ace6ede828bf43c5176ae2930e9e747b2cf76818a806",
             "remark": "Built by GCC"
         },
         {
@@ -57,7 +57,7 @@
             "machines": ["x86_64", "intel", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dylib",
-            "sha256": "d0ede95ce737c66dbf9a9fe7d85fd0428cc91bb65068d15d48b611192a326017",
+            "sha256": "4ef73c98e0c99f76b5bfceaefcf49f54d295af20c801e2d099b8391df17714cd",
             "remark": "Built by CLang with MacOSX10.11"
         },
         {
@@ -68,7 +68,7 @@
             "machines": ["x86"],
             "features": [],
             "filename": "_pytransform.dll",
-            "sha256": "02e39421b45717c62f1a588135e6a03afa42560936eeb51d0a1c2bca55f89d42",
+            "sha256": "5be1b31e8f9adffa1aa8f7c8f5111822ae40fde76b32456544c08ef92d9437ef",
             "remark": "Built by VS2015"
         },
         {
@@ -79,7 +79,7 @@
             "machines": ["x64", "amd64"],
             "features": [],
             "filename": "_pytransform.dll",
-            "sha256": "666f0129720cd314ddc468a79ed83118d1ea88e7c5289d4acd7fa7205002f32b",
+            "sha256": "0fb5e106081776092caec06f6464183373d56add326b4a9f03cf8bcf31b6bf01",
             "remark": "Built by VS2015"
         },
         {
@@ -90,7 +90,7 @@
             "machines": ["armv5"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "e37648880e7ab57c7fba02c0b3e3af8eebe0d12f43db4c453a708f67d5264387",
+            "sha256": "9ad7b08058a534b849860025b0cbcd0efb8b6aac1861444149259fd92d430e40",
             "remark": "32-bit Armv5 (arm926ej-s)"
         },
         {
@@ -101,7 +101,7 @@
             "machines": ["armv7l"],
             "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
-            "sha256": "c73fd812c9c00e1a45ea304f060f2875db450db2547974b6bb71b49a75a6f314",
+            "sha256": "8d819fb2d91f655c8ef2ae7593008d98ff5c7a5835d015d27c7ef9f29bff9a2d",
             "remark": "32-bit Armv7 Cortex-A, hard-float, little-endian"
         },
         {
@@ -112,7 +112,7 @@
             "machines": ["aarch32"],
             "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
-            "sha256": "2d2a5877edfa28e2e963ed9422823610f6e90bf59806fb478710d1639797657f",
+            "sha256": "5d6969e39d120049cfb0b22cc58beff772524da783433eda82b1058d7c1cad00",
             "remark": "32-bit Armv8 Cortex-A, hard-float, little-endian"
         },
         {
@@ -123,7 +123,7 @@
             "machines": ["aarch64"],
             "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
-            "sha256": "470f5aa53c27aa73f17eddbb1002e3bd8f7e8de42c856e31283d83dfdbb6f6bb",
+            "sha256": "ed773b1338b855ecd3c7b9a5dfa4ecff90cf996549978713b2ccb74936bb23d8",
             "remark": "64-bit Armv8 Cortex-A, little-endian"
         },
         {
@@ -145,7 +145,7 @@
             "machines": ["ppc64le"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "0f6c17bc6a4745246ddbd06aba22128a3d425f9d3ee7f6bb4093a80725b77231",
+            "sha256": "273ac64aafffa1b95a3def0d0172dd24c3c80756ca1cc3a48d9733da25b2e149",
             "remark": "For POWER8"
         },
         {
@@ -156,7 +156,7 @@
             "machines": ["arm64"],
             "features": [],
             "filename": "_pytransform.dylib",
-            "sha256": "c8b342db9cbf8c12f2fe28bc309923bb0aca98295060cf4b37f716d0e98ec0ec",
+            "sha256": "b2cf003ff5b1150dbfe9f738e77b1a9d56cbece8e598cdef8929ea0074f0229b",
             "remark": "Built by CLang with iPhoneOS9.3.sdk"
         },
         {
@@ -167,7 +167,7 @@
             "machines": ["x86_64"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "720d6f016530e1029c3333ef47c5bffad7722d1d1826595059a47a8f67923ea5",
+            "sha256": "e60ace6a1af178abcbced7d0bf493f4601d596d15cf9895a2559a1fd952ac19e",
             "remark": "Not support harddisk serial number"
         },
         {
@@ -178,7 +178,7 @@
             "machines": ["x86_64"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "0cab45b558384f88411b9f08c072736c66c0963affd392565bbc7eadd8a80901",
+            "sha256": "c29b894bea7fe0fed2eb0d543a25806f3c685762052eaf2f5d81567e97dfb401",
             "remark": "Built with musl-1.1.21 for Docker"
         },
         {
@@ -189,7 +189,7 @@
             "machines": ["armv5t", "armv7l"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "a781653e1ad685249fee59615e9aa8fc00a93d478d14c4e85e465f677e2904f9",
+            "sha256": "ec992613a565737c35d9dd70092a9c13fe6eef36ec95e09bdc9296e65c831cca",
             "remark": "Built with musl-1.1.21, 32 bit Armv5T, hard-float, little-endian"
         },
         {
@@ -200,7 +200,7 @@
             "machines": ["x86", "i386", "i486", "i586", "i686"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "ff44c16c537696a18410778b8552456e39b46379b0e79080b7b534e1149e92ac",
+            "sha256": "61079d10762a34a0215a33d4be2d2c54e8f1dbc92c34e7e5b59b2f6bb5f02998",
             "remark": "Work for Inel Quark, Cross compile by i586-poky-linux"
         },
         {
@@ -211,7 +211,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.so",
-            "sha256": "51426ec5ebec946e30fc93225ea75577800e89e5ced134f383e73d58ef58d7a4",
+            "sha256": "4eeb34de9e1534807ef09cbe52edba6d70e3f1af3f106b6cf97b02b251ba9206",
             "remark": "Cloned from linux.x86_64, patched for glibc < 2.14"
         },
         {
@@ -222,7 +222,7 @@
             "machines": ["x86"],
             "features": [],
             "filename": "_pytransform.dll",
-            "sha256": "66ba4bad2d70aa48ff9775cb112aadced529d44e9f9bfffc5045af3f6c8bd6cc",
+            "sha256": "5d3f12551ba10d42dbbee31ccd9c7de468956ca4c061e53db74aecfed66a97d9",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -233,7 +233,7 @@
             "machines": ["amd64", "x86_64", "x64"],
             "features": [],
             "filename": "_pytransform.dll",
-            "sha256": "6f719d64fdeb4998bd175b44c4a1ce4b75bb96728d0b3eb23d43af961d5358ad",
+            "sha256": "5ea6a95c3b700a4478b4f6409fa7c2a125d888f973e7bd92b46673cbbc3ef363",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -244,7 +244,7 @@
             "machines": ["i386", "i486", "i586", "i686", "x86"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "6624362c7caa857e5f2382690c445b66f70095ae4b5573dc29b35f06ed238396",
+            "sha256": "17f0601f6d729c1598ac7276563eed61f19231bc0fc3002fb017a726ef18cf0c",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -255,7 +255,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "5a859d4dc34b9b5cb859aee2d536fd66f77175033917f88f3465bc3f68614d56",
+            "sha256": "0799fe5b4c6278c96998b387fd447b1053cabc4d6f7ba923322c297314077cad",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -266,7 +266,7 @@
             "machines": ["x86_64", "intel", "amd64", "x64"],
             "features": [],
             "filename": "_pytransform.dylib",
-            "sha256": "29b5c822f34363bc7da21ddc37c134acf97c88b0c6effc467dadd75bff56488f",
+            "sha256": "b5a43381e189848e89fd6143c8a0cfc90f7af2a7bcff734060c7a172969ca28b",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -277,7 +277,7 @@
             "machines": ["armv7l"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "c73fd812c9c00e1a45ea304f060f2875db450db2547974b6bb71b49a75a6f314",
+            "sha256": "2fa35114fc33c74ef753060cae80e5281f5070a4b1faf69f1824755c056b2336",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -288,18 +288,18 @@
             "machines": ["aarch32"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "2d2a5877edfa28e2e963ed9422823610f6e90bf59806fb478710d1639797657f",
+            "sha256": "effda150d76ff7fe10a501de88785e4c87c33298b93137b0c164905056c87c3d",
             "remark": "Simple and quick, no any feature"
         },
         {
-            "id": "linux.aarch64.3",
+            "id": "linux.aarch64.0",
             "name": "linux.aarch64",
             "platform": "linux",
-            "path": "linux.aarch64.3",
+            "path": "linux.aarch64.0",
             "machines": ["aarch64"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "470f5aa53c27aa73f17eddbb1002e3bd8f7e8de42c856e31283d83dfdbb6f6bb",
+            "sha256": "78d492e9056db628051a31dc6dbc539329ad9ef07e755ab539412a5c18fed1ba",
             "remark": "Simple and quick, no any feature"
         }
     ]

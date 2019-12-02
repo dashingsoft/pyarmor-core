@@ -47,10 +47,6 @@ scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
     ./ppc64le
 
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
-    jondy@192.168.121.103:/home/jondy/workspace/pytransform/cross-platform/ios.arm64/.libs/_pytransform.dylib \
-    ./ios.arm64
-
-scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
     jondy@192.168.121.103:/home/jondy/workspace/pytransform/cross-platform/freebsd/.libs/_pytransform.so \
     ./freebsd
 
@@ -93,6 +89,10 @@ scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
     jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/darwin.x86_64.0/_pytransform.dylib \
     ./darwin.x86_64.0
+
+scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/ios.arm64/_pytransform.dylib \
+    ./ios.arm64
 
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
     jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/windows.x86_64.0/_pytransform.dll \
