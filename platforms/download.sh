@@ -75,12 +75,12 @@ scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
     ./ts-4600
 
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
-    jondy@192.168.121.103:/home/jondy/workspace/pytransform/build/vs2015/x64/_pytransform.dll \
-    ./vs2015/x64
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/vs2015.x64/_pytransform.dll \
+    ./vs2015.x64
 
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
-    jondy@192.168.121.103:/home/jondy/workspace/pytransform/build/vs2015/x86/_pytransform.dll \
-    ./vs2015/x86
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/vs2015.x86/_pytransform.dll \
+    ./vs2015.x86
 
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
     jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/linux.x86.0/_pytransform.so \
