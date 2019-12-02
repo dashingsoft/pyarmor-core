@@ -81,3 +81,31 @@ scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
     jondy@192.168.121.103:/home/jondy/workspace/pytransform/build/vs2015/x86/_pytransform.dll \
     ./vs2015/x86
+
+scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/linux.x86.0/_pytransform.so \
+    ./linux.x86.0
+
+scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/linux.x86_64.0/_pytransform.so \
+    ./linux.x86_64.0
+
+scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/darwin.x86_64.0/_pytransform.dylib \
+    ./darwin.x86_64.0
+
+scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/windows.x86_64.0/_pytransform.dll \
+    ./windows.x86_64.0
+
+scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/linux.armv7.0/_pytransform.so \
+    ./linux.armv7.0
+
+scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/linux.aarch32.0/_pytransform.so \
+    ./linux.aarch32.0
+
+scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
+    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/linux.aarch64.0/_pytransform.so \
+    ./linux.aarch64.0

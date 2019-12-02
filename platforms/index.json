@@ -268,7 +268,39 @@
             "filename": "_pytransform.dylib",
             "sha256": "29b5c822f34363bc7da21ddc37c134acf97c88b0c6effc467dadd75bff56488f",
             "remark": "Simple and quick, no any feature"
+        },
+        {
+            "id": "linux.armv7.0",
+            "name": "linux.armv7",
+            "platform": "linux",
+            "path": "linux.armv7.0",
+            "machines": ["armv7l"],
+            "features": [],
+            "filename": "_pytransform.so",
+            "sha256": "c73fd812c9c00e1a45ea304f060f2875db450db2547974b6bb71b49a75a6f314",
+            "remark": "Simple and quick, no any feature"
+        },
+        {
+            "id": "linux.aarch32.0",
+            "name": "linux.aarch32",
+            "platform": "linux",
+            "path": "linux.aarch32.0",
+            "machines": ["aarch32"],
+            "features": [],
+            "filename": "_pytransform.so",
+            "sha256": "2d2a5877edfa28e2e963ed9422823610f6e90bf59806fb478710d1639797657f",
+            "remark": "Simple and quick, no any feature"
+        },
+        {
+            "id": "linux.aarch64.3",
+            "name": "linux.aarch64",
+            "platform": "linux",
+            "path": "linux.aarch64.3",
+            "machines": ["aarch64"],
+            "features": [],
+            "filename": "_pytransform.so",
+            "sha256": "470f5aa53c27aa73f17eddbb1002e3bd8f7e8de42c856e31283d83dfdbb6f6bb",
+            "remark": "Simple and quick, no any feature"
         }
-
     ]
 }
