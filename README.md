@@ -20,3 +20,8 @@ Here list all the available platforms:
 * [platforms/linux_i386/hdinfo](platforms/linux_i386/hdinfo)
 * [platforms/linux_x86_64/hdinfo](platforms/linux_x86_64/hdinfo)
 * [platforms/macosx_x86_64/hdinfo](platforms/macosx_x86_64/hdinfo)
+
+* [platforms/arm/hdinfo](platforms/armv5/hdinfo)
+* [platforms/armv7/hdinfo](platforms/armv7/hdinfo)
+* [platforms/aarch32/hdinfo](platforms/armv8.32-bit/hdinfo)
+* [platforms/aarch64/hdinfo](platforms/armv8.64-bit/hdinfo)
