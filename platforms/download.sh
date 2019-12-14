@@ -87,14 +87,6 @@ scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
     ./linux.x86_64.0
 
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
-    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/darwin.x86_64.0/_pytransform.dylib \
-    ./darwin.x86_64.0
-
-scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
-    jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/ios.arm64/_pytransform.dylib \
-    ./ios.arm64
-
-scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
     jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/windows.x86_64.0/_pytransform.dll \
     ./windows.x86_64.0
 
@@ -109,3 +101,14 @@ scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
 scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
     jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/linux.aarch64.0/_pytransform.so \
     ./linux.aarch64.0
+
+if ! [[ $(uname) == 'Darwin' ]] ; then
+    scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
+        jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/darwin.x86_64.0/_pytransform.dylib \
+        ./darwin.x86_64.0
+
+    scp -i ~/.ssh/jondy_ubuntu_svr_id_rsa \
+        jondy@192.168.121.103:/home/jondy/workspace/pyarmor-core/platforms/ios.arm64/_pytransform.dylib \
+        ./ios.arm64
+fi
+
