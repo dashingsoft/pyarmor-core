@@ -8,7 +8,6 @@ echo "Download remote files from $RPATH"
 scp -i $IDFILE $RPATH/pyarmor-core/platforms/win_amd64/_pytransform.dll ./win_amd64
 scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux_x86_64/_pytransform.so ./linux_x86_64
 scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux_i386/_pytransform.so ./linux_i386
-scp -i $IDFILE $RPATH/pyarmor-core/platforms/macosx_x86_64/_pytransform.dylib ./macosx_x86_64
 scp -i $IDFILE $RPATH/pytransform/cross-platform/raspberrypi/.libs/_pytransform.so ./raspberrypi
 scp -i $IDFILE $RPATH/pytransform/cross-platform/bananapi/.libs/_pytransform.so ./bananapi
 scp -i $IDFILE $RPATH/pytransform/cross-platform/orangepi/.libs/_pytransform.so ./orangepi
