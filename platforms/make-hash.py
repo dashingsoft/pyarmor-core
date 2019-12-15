@@ -6,7 +6,7 @@ import os
 
 from datetime import datetime
 
-TEMPLATE = r'''gsed -i -e '/"path": "{name}"/,+6 s/"sha256":.*$/"sha256": "{vdata}",/g' {filename}'''
+TEMPLATE = r'''gsed -i -e '/"path": "{path}"/,+6 s/"sha256":.*$/"sha256": "{vdata}",/g' {filename}'''
 UPDATE_TIME = r'''gsed -i -e 's/"build_time": .*$/"build_time:": "{time}",/g' {filename}'''
 
 
@@ -18,8 +18,8 @@ def make_hash256(filename):
         libfile = os.path.join(p['path'], p['filename'])
         with open(libfile, 'rb') as f:
             p['sha256'] = hashlib.sha256(f.read()).hexdigest()
-        cmd = TEMPLATE.format(name=p['path'].replace('/', r'\/'),
-                              vdata=p['sha256'], filename=filename)
+        cmd = TEMPLATE.format(path=p['path'], vdata=p['sha256'],
+                              filename=filename)
         print(cmd)
         os.system(cmd)
 
