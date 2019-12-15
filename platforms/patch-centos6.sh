@@ -4,7 +4,12 @@ dest=centos6.x86_64
 echo "Copy $src to $dest"
 cp $src/_pytransform.so $dest
 
-offset=$(readelf.exe -V $dest/_pytransform.so | grep "Offset" | gawk 'FNR == 3 { print $4; }')
+READELF=readelf
+test -x $READELF || READELF=/usr/local/opt/binutils/bin/readelf
+AWK=gawkte
+test -x $AWK || AWK=awk
+
+offset=$($READELF -V $dest/_pytransform.so | grep "Offset" | $AWK 'FNR == 3 { print $4; }')
 if [[ -z "$offset" ]] ; then
     echo "No found offset of section '.gnu.version_r'"
     exit 1
