@@ -1,6 +1,6 @@
 {
-    "version": "r8.2",
-    "build_time:": "2019-12-02 17:12:52",
+    "version": "r9.3",
+    "build_time:": "2019-12-15 14:55:25",
     "compatible": "PyArmor >= 5.6.0",
     "changes": [],
     "remark": [],
