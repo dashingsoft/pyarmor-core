@@ -5,6 +5,7 @@ echo "Idfile is $IDFILE"
 RPATH="jondy@192.168.121.103:/home/jondy/workspace"
 echo "Download remote files from $RPATH"
 
+set -x
 scp -i $IDFILE $RPATH/pyarmor-core/platforms/win_amd64/_pytransform.dll ./win_amd64
 scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux_x86_64/_pytransform.so ./linux_x86_64
 scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux_i386/_pytransform.so ./linux_i386
