@@ -134,7 +134,7 @@
             "machines": ["aarch64"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "88490b89f7b4adb5c16acd0718afdc9e0dd19a84866f0aa5f68da234725d1c16",
+            "sha256": "0b9a48fe2496fa5001a4dce9772d5794647cd21e5381400bfbf96ea8f4c5ef33",
             "remark": "Build by android-ndk-r20/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang"
         },
         {
