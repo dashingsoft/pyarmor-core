@@ -6,7 +6,7 @@ cp $src/_pytransform.so $dest
 
 READELF=readelf
 test -x $READELF || READELF=/usr/local/opt/binutils/bin/readelf
-AWK=gawkte
+AWK=gawk
 test -x $AWK || AWK=awk
 
 offset=$($READELF -V $dest/_pytransform.so | grep "Offset" | $AWK 'FNR == 3 { print $4; }')
