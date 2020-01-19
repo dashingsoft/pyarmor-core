@@ -1,4 +1,4 @@
-prefix="root@snsoffice.com:/var/www/pyarmor/downloads/latest"
+prefix="root@snsoffice.com:/var/www/pyarmor/downloads"
 
 for path in ./ ; do
     echo "Search path $path ..."
@@ -9,7 +9,7 @@ for path in ./ ; do
         #   platform=$(dirname $src)
         #   platform=${platform#./}
         # fi
-        dest="$prefix/$platform"
+        dest="$prefix/latest/$platform"
         echo "Upload $src to $dest"
         scp -i ~/.ssh/aliyun_id_rsa $src $dest
     done
@@ -23,5 +23,11 @@ done
 # Update hash of dynamic library
 # python make-hash.py
 
-echo "Upload index.json to $prefix/"
-scp -i ~/.ssh/aliyun_id_rsa index.json $prefix/
+echo "Upload index.json to $prefix/latest"
+scp -i ~/.ssh/aliyun_id_rsa index.json $prefix/latest/
+
+ver=$1
+if [[ -n "$ver" ]] ; then
+    echo "Copy latest to remote path: /var/www/pyarmor/downloads/$ver"
+    ssh -i ~/.ssh/aliyun_id_rsa root@snsoffice.com "rm -rf /var/www/pyarmor/downloads/$ver; cd /var/www/pyarmor/downloads; cp -a latest/ $ver"
+fi
