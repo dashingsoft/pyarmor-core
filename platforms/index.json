@@ -1,6 +1,6 @@
 {
-    "version": "r14.8",
-    "build_time:": "2020-01-18 10:59:20",
+    "version": "r15.9",
+    "build_time:": "2020-03-02 12:03:21",
     "compatible": "PyArmor >= 5.6.0",
     "changes": [],
     "remark": [],
@@ -268,6 +268,17 @@
             "filename": "_pytransform.dylib",
             "sha256": "2f13242c0fda1830b716bf386ba0281cd53828bfa56702ff9695682f386b2589",
             "remark": "Simple and quick, no any feature"
+        },
+        {
+            "id": "linux.armv6.0",
+            "name": "linux.armv6",
+            "platform": "linux",
+            "path": "linux.armv6.0",
+            "machines": ["armv6l"],
+            "features": [],
+            "filename": "_pytransform.so",
+            "sha256": "",
+            "remark": "Simple and quick, no any feature, built with `-march=armv6`"
         },
         {
             "id": "linux.armv7.0",
