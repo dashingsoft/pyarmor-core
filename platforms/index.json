@@ -2,7 +2,7 @@
     "version": "r15.9a",
     "build_time:": "2020-03-03 18:02:50",
     "compatible": "PyArmor >= 5.6.0",
-    "changes": "Rebuild platform linux.armv6.0 with -mcpu=arm1176jzfs",
+    "changes": "Rebuild platform linux.armv6.0 with -mcpu=arm1136j-s",
     "remark": "Only rebuild one dynamic library with different cflags",
     "platforms": [
         {
@@ -278,7 +278,7 @@
             "features": [],
             "filename": "_pytransform.so",
             "sha256": "0af6af4d06c7fa418be683114b39f3ebac2ab437460668c59e03dbe051a80c3d",
-            "remark": "Simple and quick, no any feature, built with `-march=armv6`"
+            "remark": "Simple and quick, no any feature, built with `-mcpu=arm1136j-s`"
         },
         {
             "id": "linux.armv7.0",
