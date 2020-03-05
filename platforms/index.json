@@ -1,8 +1,8 @@
 {
     "version": "r15.9a",
-    "build_time:": "2020-03-03 18:02:50",
+    "build_time:": "2020-03-04 09:29:56",
     "compatible": "PyArmor >= 5.6.0",
-    "changes": "Rebuild platform linux.armv6.0 with -mcpu=arm1136j-s",
+    "changes": "Rebuild platform linux.armv6.0 with -march=armv6 -mfloat-abi=hard -marm",
     "remark": "Only rebuild one dynamic library with different cflags",
     "platforms": [
         {
@@ -101,7 +101,7 @@
             "machines": ["armv7l"],
             "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
-            "sha256": "e7e3cdce2932324de529ea401821d24ae8a9095b5a310163ffc5a0329c4659b8",
+            "sha256": "2eb51194707330f463d07207510708fb9f5b95f2c48556ee04fbf597dfc5d632",
             "remark": "32-bit Armv7 Cortex-A, hard-float, little-endian"
         },
         {
@@ -277,8 +277,8 @@
             "machines": ["armv6l"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "0af6af4d06c7fa418be683114b39f3ebac2ab437460668c59e03dbe051a80c3d",
-            "remark": "Simple and quick, no any feature, built with `-mcpu=arm1136j-s`"
+            "sha256": "6c0a4284c71e948d2095af7a31575df5c2e7ced659af8e8eccc1754a5a92189a",
+            "remark": "No any extra features, built with `-march=armv6 -mfloat-abi=hard -marm`"
         },
         {
             "id": "linux.armv7.0",
@@ -288,7 +288,7 @@
             "machines": ["armv7l"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "d14184bbcbceab957e4c0d62672c3be4c4d388c3accad4bd54f3c9525061f791",
+            "sha256": "8c33ca3346f547145df6edb12d5347499b9eb483c7e083ae562aead6c7da0183",
             "remark": "Simple and quick, no any feature"
         },
         {
