@@ -101,7 +101,7 @@
             "machines": ["armv7l"],
             "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
-            "sha256": "2eb51194707330f463d07207510708fb9f5b95f2c48556ee04fbf597dfc5d632",
+            "sha256": "09959f80bfb98c4cea46850b70c02a93346307b02500986569a0da777a1bb504",
             "remark": "32-bit Armv7 Cortex-A, hard-float, little-endian"
         },
         {
@@ -277,7 +277,7 @@
             "machines": ["armv6l"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "6c0a4284c71e948d2095af7a31575df5c2e7ced659af8e8eccc1754a5a92189a",
+            "sha256": "2b0d0df13f62f9e9028367f8b5da41f25c28a73108263476b093614e3ea7e11d",
             "remark": "No any extra features, built with `-march=armv6 -mfloat-abi=hard -marm`"
         },
         {
@@ -288,7 +288,7 @@
             "machines": ["armv7l"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "8c33ca3346f547145df6edb12d5347499b9eb483c7e083ae562aead6c7da0183",
+            "sha256": "df8f829c692a286e58b03a439329f76c2e53b7513a667d67fb164166ef70ec5a",
             "remark": "Simple and quick, no any feature"
         },
         {
