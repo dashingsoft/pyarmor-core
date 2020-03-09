@@ -138,6 +138,17 @@
             "remark": "Build by android-ndk-r20/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang"
         },
         {
+            "id": "android.armv7.0",
+            "name": "android.armv7",
+            "platform": "android",
+            "path": "android.armv7.0",
+            "machines": ["armv7l"],
+            "features": [],
+            "filename": "_pytransform.so",
+            "sha256": "e2a0912a13314a00a3c80e4affede25e615394320777837b88475c0766d60012",
+            "remark": "Build by android-ndk-r20/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-android21-clang"
+        },
+        {
             "id": "linux.ppc64.0",
             "name": "linux.ppc64",
             "platform": "linux",
