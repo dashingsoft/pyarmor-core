@@ -303,6 +303,17 @@
             "remark": "Simple and quick, no any feature"
         },
         {
+            "id": "uclibc.armv7.0",
+            "name": "uclibc.armv7",
+            "platform": "linux",
+            "path": "uclibc.armv7.0",
+            "machines": ["armv7l"],
+            "features": [],
+            "filename": "_pytransform.so",
+            "sha256": "99a3e314ff8bb1f95c07e47dd58990f4aae09dcfb7e997f8372aaf8ad7ba12c0",
+            "remark": "No any feature, built by armv7-buildroot-uclibceabihf-gcc"
+        },
+        {
             "id": "linux.aarch32.0",
             "name": "linux.aarch32",
             "platform": "linux",
