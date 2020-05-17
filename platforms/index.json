@@ -1,8 +1,8 @@
 {
-    "version": "r20.14",
-    "build_time:": "2020-05-02 19:04:26",
+    "version": "r21.15",
+    "build_time:": "2020-05-14 15:59:26",
     "compatible": "PyArmor >= 5.6.0",
-    "changes": "Check license periodly",
+    "changes": "Add super mode",
     "remark": "",
     "platforms": [
         {
@@ -334,6 +334,171 @@
             "filename": "_pytransform.so",
             "sha256": "13f0ccb9bf344252c09c0136b79caede461bcc856923640893607831bbe1f519",
             "remark": "Simple and quick, no any feature"
+        },
+        {
+            "id": "darwin.x86_64.11.py38",
+            "name": "darwin.x86_64",
+            "platform": "darwin",
+            "path": "darwin.x86_64.11.py38",
+            "machines": ["x86_64", "intel", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-38-darwin.so",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "darwin.x86_64.11.py37",
+            "name": "darwin.x86_64",
+            "platform": "darwin",
+            "path": "darwin.x86_64.11.py37",
+            "machines": ["x86_64", "intel", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-37m-darwin.so",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "darwin.x86_64.11.py27",
+            "name": "darwin.x86_64",
+            "platform": "darwin",
+            "path": "darwin.x86_64.11.py27",
+            "machines": ["x86_64", "intel", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.so",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.x86_64.11.py38",
+            "name": "linux.x86_64",
+            "platform": "linux",
+            "path": "linux.x86_64.11.py38",
+            "machines": ["x86_64", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-38-linux.so",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.x86_64.11.py37",
+            "name": "linux.x86_64",
+            "platform": "linux",
+            "path": "linux.x86_64.11.py37",
+            "machines": ["x86_64", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-37m-linux.so",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.x86_64.11.py27",
+            "name": "linux.x86_64",
+            "platform": "linux",
+            "path": "linux.x86_64.11.py27",
+            "machines": ["x86_64", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.so",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "windows.x86_64.11.py38",
+            "name": "windows.x86_64",
+            "platform": "windows",
+            "path": "windows.x86_64.11.py38",
+            "machines": ["x64", "amd64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-38-windows.dll",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "windows.x86_64.11.py37",
+            "name": "windows.x86_64",
+            "platform": "windows",
+            "path": "windows.x86_64.11.py37",
+            "machines": ["x64", "amd64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-37m-windows.dll",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "windows.x86_64.11.py27",
+            "name": "windows.x86_64",
+            "platform": "windows",
+            "path": "windows.x86_64.11.py27",
+            "machines": ["x64", "amd64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.dll",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.aarch64.11.py38",
+            "name": "linux.aarch64",
+            "platform": "darwin",
+            "path": "linux.aarch64.11.py38",
+            "machines": ["aarch64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-38-linux.so",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.aarch64.11.py37",
+            "name": "linux.aarch64",
+            "platform": "darwin",
+            "path": "linux.aarch64.11.py37",
+            "machines": ["aarch64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-37m-linux.so",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.aarch64.11.py27",
+            "name": "linux.aarch64",
+            "platform": "darwin",
+            "path": "linux.aarch64.11.py27",
+            "machines": ["aarch64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.so",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.armv7.11.py38",
+            "name": "linux.armv7",
+            "platform": "darwin",
+            "path": "linux.armv7.11.py38",
+            "machines": ["x86_64", "intel", "amd64", "x64"],
+            "machines": ["armv7l"],
+            "filename": "pytransform.cpython-38-linux.so",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.armv7.11.py37",
+            "name": "linux.armv7",
+            "platform": "darwin",
+            "path": "linux.armv7.11.py37",
+            "machines": ["x86_64", "intel", "amd64", "x64"],
+            "machines": ["armv7l"],
+            "filename": "pytransform.cpython-37m-linux.so",
+            "sha256": "",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.armv7.11.py27",
+            "name": "linux.armv7",
+            "platform": "darwin",
+            "path": "linux.armv7.11.py27",
+            "machines": ["armv7l"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.so",
+            "sha256": "",
+            "remark": "Super mode library"
         }
     ]
 }
