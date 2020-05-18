@@ -3,7 +3,7 @@ prefix="root@snsoffice.com:/var/www/pyarmor/downloads"
 for path in ./ ; do
     echo "Search path $path ..."
     echo "-----------------------------------------"
-    for src in $(find $path -name _pytransform.*) ; do
+    for src in $(find $path -name *pytransform.*) ; do
         platform=$(basename $(dirname $src))
         # if [[ "$platform" == "x64" || "$platform" == "x86" ]] ; then
         #   platform=$(dirname $src)
