@@ -38,8 +38,12 @@ scp -i $IDFILE $RPATH/pytransform/cross-platform/uclibc.armv7/.libs/_pytransform
 for v in 27 37 38 ; do
     scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.x86_64.11.py${v}/pytransform*.so \
         ./linux.x86_64.11.py${v}
+    scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.x86.11.py${v}/pytransform*.so \
+        ./linux.x86.11.py${v}
     scp -i $IDFILE $RPATH/pyarmor-core/platforms/windows.x86_64.11.py${v}/pytransform.pyd \
         ./windows.x86_64.11.py${v}
+    scp -i $IDFILE $RPATH/pyarmor-core/platforms/windows.x86.11.py${v}/pytransform.pyd \
+        ./windows.x86.11.py${v}
 done
 
 if [[ $(uname) == 'Darwin' ]] ; then
