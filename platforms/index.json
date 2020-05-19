@@ -499,6 +499,105 @@
             "filename": "pytransform.pyd",
             "sha256": "0f85f48a0eb0e73f43e08d789aca1087b591914e4e17bf7b6dce0fa353e02920",
             "remark": "Super mode library"
+        },
+        {
+            "id": "linux.aarch64.11.py38",
+            "name": "linux.aarch64",
+            "platform": "linux",
+            "path": "linux.aarch64.11.py38",
+            "machines": ["aarch64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-38-aarch64-linux-gnu.so",
+            "sha256": "e05387691979f0677f5c64cf1d8d314098ad14d3407ecb01fcdc7cc83ab95568",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.aarch64.11.py37",
+            "name": "linux.aarch64",
+            "platform": "linux",
+            "path": "linux.aarch64.11.py37",
+            "machines": ["aarch64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-37m-aarch64-linux-gnu.so",
+            "sha256": "75adf3fc5dfea817240889a79b5420d0fcb719da63732333dacd1aa815307d2e",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.aarch64.11.py27",
+            "name": "linux.aarch64",
+            "platform": "linux",
+            "path": "linux.aarch64.11.py27",
+            "machines": ["aarch64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.so",
+            "sha256": "115ebc2221d4ec7dd0de784887e5aad555b52a74bb6afc24cf3a2589754d051b",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.aarch32.11.py38",
+            "name": "linux.aarch32",
+            "platform": "linux",
+            "path": "linux.aarch32.11.py38",
+            "machines": ["aarch32"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-38-arm-linux-gnu.so",
+            "sha256": "9d34036a4ae7424e12970f35147efa5e240fc88ccb34dbd36cfe178bbe9a1c57",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.aarch32.11.py37",
+            "name": "linux.aarch32",
+            "platform": "linux",
+            "path": "linux.aarch32.11.py37",
+            "machines": ["aarch32"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-37m-arm-linux-gnu.so",
+            "sha256": "07d7f1b56497fb57652fea0ff38aebdc726c91960a80006d8a3db22be3828191",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.aarch32.11.py27",
+            "name": "linux.aarch32",
+            "platform": "linux",
+            "path": "linux.aarch32.11.py27",
+            "machines": ["aarch32"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.so",
+            "sha256": "cc9735c04ff1e9545b34ba6b376d20164736770ccbf9805022fc2652dcc20fee",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.armv7.11.py38",
+            "name": "linux.armv7",
+            "platform": "linux",
+            "path": "linux.armv7.11.py38",
+            "machines": ["armv7l"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-38-arm-linux-gnu.so",
+            "sha256": "6bcb6eb47974b33d5d8f9fe0d44420c34cc5196613fff32cdee9af7a8f883bea",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.armv7.11.py37",
+            "name": "linux.armv7",
+            "platform": "linux",
+            "path": "linux.armv7.11.py37",
+            "machines": ["armv7l"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-37m-arm-linux-gnu.so",
+            "sha256": "c8afbdf392fe26dffe6bcf66794295b4afa979796cf59e6fa42c604a07557627",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.armv7.11.py27",
+            "name": "linux.armv7",
+            "platform": "linux",
+            "path": "linux.armv7.11.py27",
+            "machines": ["armv7l"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.so",
+            "sha256": "bb8af3eeeafbbbdf25154fd1dac8cf4138a0a22891eca46142e00d02cb3263a2",
+            "remark": "Super mode library"
         }
     ]
 }

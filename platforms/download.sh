@@ -44,6 +44,12 @@ for v in 27 37 38 ; do
         ./windows.x86_64.11.py${v}
     scp -i $IDFILE $RPATH/pyarmor-core/platforms/windows.x86.11.py${v}/pytransform.pyd \
         ./windows.x86.11.py${v}
+    scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.aarch64.11.py${v}/pytransform*.so \
+        ./linux.aarch64.11.py${v}
+    scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.aarch32.11.py${v}/pytransform*.so \
+        ./linux.aarch32.11.py${v}
+    scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.armv7.11.py${v}/pytransform*.so \
+        ./linux.armv7.11.py${v}
 done
 
 if [[ $(uname) == 'Darwin' ]] ; then
