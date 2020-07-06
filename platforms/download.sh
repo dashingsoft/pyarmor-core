@@ -34,6 +34,7 @@ scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.aarch64.0/_pytransform.so ./l
 scp -i $IDFILE $RPATH/pytransform/cross-platform/linux.armv6/.libs/_pytransform.so ./linux.armv6.0
 scp -i $IDFILE $RPATH/pytransform/cross-platform/android.armv7/.libs/_pytransform.so ./android.armv7.0
 scp -i $IDFILE $RPATH/pytransform/cross-platform/uclibc.armv7/.libs/_pytransform.so ./uclibc.armv7.0
+scp -i $IDFILE $RPATH/pytransform/cross-platform/musl.mips32/.libs/_pytransform.so ./musl.mips32.0
 
 for v in 27 37 38 ; do
     scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.x86_64.11.py${v}/pytransform*.so \
