@@ -336,6 +336,17 @@
             "remark": "Simple and quick, no any feature"
         },
         {
+            "id": "linux.mips32.0",
+            "name": "linux.mips32",
+            "platform": "linux",
+            "path": "linux.mips32.0",
+            "machines": ["mips32"],
+            "features": [],
+            "filename": "_pytransform.so",
+            "sha256": "e524cd0e82fce304b4307d8f9992d6d92e055f0dba22e07389d94922092fd831",
+            "remark": "Simple and quick, no any feature"
+        },
+        {
             "id": "darwin.x86_64.11.py38",
             "name": "darwin.x86_64",
             "platform": "darwin",
