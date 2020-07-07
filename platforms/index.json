@@ -182,8 +182,8 @@
             "remark": "Not support harddisk serial number"
         },
         {
-            "id": "alpine.x86_64.0",
-            "name": "alpine.x86_64",
+            "id": "musl.x86_64.0",
+            "name": "musl.x86_64",
             "platform": "alpine",
             "path": "alpine",
             "machines": ["x86_64"],
@@ -193,8 +193,8 @@
             "remark": "Built with musl-1.1.21 for Docker"
         },
         {
-            "id": "alpine.arm.0",
-            "name": "alpine.arm",
+            "id": "musl.arm.0",
+            "name": "musl.arm",
             "platform": "alpine",
             "path": "alpine.arm",
             "machines": ["armv5t", "armv7l"],
