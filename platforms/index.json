@@ -354,7 +354,7 @@
             "machines": ["x86_64", "intel", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-38-darwin.so",
-            "sha256": "95f2284d7c4ca17d95a9af609719ddcc69b886e81c7b05f88ffd033558c39c28",
+            "sha256": "6636ffbf651ce5ae8532dd840a7794558663c0d84c480d1c0c667c3fdace7df3",
             "remark": "Super mode library"
         },
         {
@@ -365,7 +365,7 @@
             "machines": ["x86_64", "intel", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-37m-darwin.so",
-            "sha256": "f6faf38a647ed936dcfc3dce5c0ef004ef88c70e6f46e6729bf4ae2b781ab2c6",
+            "sha256": "2862fcf8e53cf291074d03583143f5c15ae5608a4f2dbdaeef1bdf6718ae2db5",
             "remark": "Super mode library"
         },
         {
@@ -376,7 +376,7 @@
             "machines": ["x86_64", "intel", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.so",
-            "sha256": "0515d2e0315f0cc4485eeb27e94bcea9d6ecfde7aed934226840221ae7291e97",
+            "sha256": "82ae85fbc868c11185f87674893049fcf72b6814c87dbeb3a761dec082b89573",
             "remark": "Super mode library"
         },
         {
