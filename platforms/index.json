@@ -609,6 +609,94 @@
             "filename": "pytransform.so",
             "sha256": "8f76c616c92fb8c287efa1c7c0f6f7edfc85ed95bf8400405a861c0011289aa0",
             "remark": "Super mode library"
+        },
+        {
+            "id": "windows.x86.21",
+            "name": "windows.x86",
+            "platform": "windows",
+            "path": "windows.x86.21",
+            "machines": ["x86"],
+            "features": ["VM", "ANTI-DEBUG", "ADV"],
+            "filename": "_pytransform.dll",
+            "sha256": "",
+            "remark": "Cross compile by i686-w64-mingw32-gcc in cygwin"
+        },
+        {
+            "id": "windows.x86_64.21",
+            "name": "windows.x86_64",
+            "platform": "windows",
+            "path": "windows.x86_64.21",
+            "machines": ["amd64", "x86_64", "x64"],
+            "features": ["VM", "ANTI-DEBUG", "ADV"],
+            "filename": "_pytransform.dll",
+            "sha256": "",
+            "remark": "Cross compile by x86_64-w64-mingw32-gcc in cygwin"
+        },
+        {
+            "id": "windows.x86_64.25.py38",
+            "name": "windows.x86_64",
+            "platform": "windows",
+            "path": "windows.x86_64.25.py38",
+            "machines": ["x64", "amd64"],
+            "features": ["VM", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.pyd",
+            "sha256": "",
+            "remark": "Super mode library""remark": "Super mode library"
+        },
+        {
+            "id": "windows.x86_64.25.py37",
+            "name": "windows.x86_64",
+            "platform": "windows",
+            "path": "windows.x86_64.25.py37",
+            "machines": ["x64", "amd64"],
+            "features": ["VM", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.pyd",
+            "sha256": "",
+            "remark": "Super mode plus vm library"
+        },
+        {
+            "id": "windows.x86_64.25.py27",
+            "name": "windows.x86_64",
+            "platform": "windows",
+            "path": "windows.x86_64.25.py27",
+            "machines": ["x64", "amd64"],
+            "features": ["VM", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.pyd",
+            "sha256": "",
+            "remark": "Super mode plus vm library"
+        },
+        {
+            "id": "windows.x86.25.py38",
+            "name": "windows.x86",
+            "platform": "windows",
+            "path": "windows.x86.25.py38",
+            "machines": ["x86"],
+            "features": ["VM", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.pyd",
+            "sha256": "aa9eb2e0d92ed9f0b05a24620dd0d7261937a20f99ab24550aedb92b2d96f72e",
+            "remark": "Super mode plus vm library"
+        },
+        {
+            "id": "windows.x86.25.py37",
+            "name": "windows.x86",
+            "platform": "windows",
+            "path": "windows.x86.25.py37",
+            "machines": ["x86"],
+            "features": ["vm", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.pyd",
+            "sha256": "",
+            "remark": "Super mode plus vm library"
+        },
+        {
+            "id": "windows.x86.25.py27",
+            "name": "windows.x86",
+            "platform": "windows",
+            "path": "windows.x86.25.py27",
+            "machines": ["x86"],
+            "features": ["VM", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.pyd",
+            "sha256": "",
+            "remark": "Super mode plus vm library"
         }
     ]
 }
