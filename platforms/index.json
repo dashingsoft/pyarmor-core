@@ -1,8 +1,8 @@
 {
-    "version": "r28.2",
-    "build_time:": "2020-07-12 14:11:52",
+    "version": "r29.3",
+    "build_time:": "2020-07-15 16:25:50",
     "compatible": "PyArmor >= 6.3.0",
-    "changes": "Fix super mode issue for Python37/38 in Windows",
+    "changes": "Add new platforms and vm protection library for Windows",
     "remark": "",
     "platforms": [
         {
