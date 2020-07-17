@@ -640,7 +640,7 @@
             "machines": ["x86"],
             "features": ["VM", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dll",
-            "sha256": "0a6397239663d3a8f949e1088b889dcbb1164c83226ccfeb46c130ded2864cbe",
+            "sha256": "7cb738713ed99ae1b7e424bf2c81a1e75aaa9a401dd09c0b442e0bca77f927c0",
             "remark": "Cross compile by i686-w64-mingw32-gcc in cygwin"
         },
         {
@@ -651,7 +651,7 @@
             "machines": ["amd64", "x86_64", "x64"],
             "features": ["VM", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dll",
-            "sha256": "2b0f4a79f9ac0912a704cac6111c9f3ce4abbb9f40949d783660c000d7354906",
+            "sha256": "e50c47af7470f0d14bdf90835083d307879b04349f96995a3b2b0f36f14d0381",
             "remark": "Cross compile by x86_64-w64-mingw32-gcc in cygwin"
         },
         {
@@ -662,7 +662,7 @@
             "machines": ["x64", "amd64"],
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "0a67bfd60bd99c587f55f5362c6307ebe5342c2b560da3c8bd5f810a95f5941f",
+            "sha256": "003c4399b0b1893e25f1d40e7c4d4e33ffcc395d8f61be5f9353292d671d11c6",
             "remark": "Super mode library"
         },
         {
@@ -673,7 +673,7 @@
             "machines": ["x64", "amd64"],
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "38d009362391b37018a8dea4c20c53d9d7e50c2a49c4cefb0064b784ee7395f7",
+            "sha256": "2d9e7f1cc6fd431d09cf4844463e3a8e6aae5a4daab3f13051fae19f27f65942",
             "remark": "Super mode plus vm library"
         },
         {
@@ -684,7 +684,7 @@
             "machines": ["x64", "amd64"],
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "fbb9107ff6f4a7e2eeaa61a3353ff9ff6b3399b66157d478b2457b3336809ba0",
+            "sha256": "45b40e4bd359a25a108a2ee9ba91ee81618c9553bdd8b015d070cbee96f81960",
             "remark": "Super mode plus vm library"
         },
         {
@@ -695,7 +695,7 @@
             "machines": ["x86"],
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "e3ec8357d32914f06892a5edcef57193e8dd160db5c0a650b06fa5968a6f297c",
+            "sha256": "7d0b93dcf153821eb8af44466d74b5cf47ce3c72dc339b9a858c7a915a7726e9",
             "remark": "Super mode plus vm library"
         },
         {
@@ -706,7 +706,7 @@
             "machines": ["x86"],
             "features": ["vm", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "d75a97b2260186d460a27a944b305de3744a0b69fe2e7bb9f77fbfbe9a6575cd",
+            "sha256": "35946e3bf9e3f30d86a086346b39103dcc861e144ccb5699b7fa8e2e9210304f",
             "remark": "Super mode plus vm library"
         },
         {
@@ -717,7 +717,7 @@
             "machines": ["x86"],
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "239f29833e84f8472091c80047d0c8be6cbbd4a1dd0e3b0136404cc4e1123074",
+            "sha256": "5adb691712f6f3c6bed39f788586becacd98896ae23f97118959c9efb6f71bc1",
             "remark": "Super mode plus vm library"
         }
     ]
