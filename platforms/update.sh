@@ -6,7 +6,7 @@
 # Usage:
 #     bash update.sh SRC TARGET
 #
-# For example, update tag r31.5a by r31.5
+# For example, create tag r31.5a by r31.5
 #
 #    bash update.sh r31.5 r31.5a
 #
