@@ -35,7 +35,7 @@
             "machines": ["i386", "i486", "i586", "i686", "x86"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.so",
-            "sha256": "ce73f8fe9a850c0310aca40080985037efe5ea83aa4ce88a28a0f70c5ff22284",
+            "sha256": "5144591d484429bc2b8f02b0b6747276d37ff219dd0b86324567d7f7aa8044bf",
             "remark": "Built by GCC"
         },
         {
@@ -46,7 +46,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.so",
-            "sha256": "271b6a2f081c15861f0e8f582b89e913d1acfe30a2fe5aa0b4d39ed09c23ef4c",
+            "sha256": "641645694d29d67f73fff81a5212ee5354a8a338deeae4fa9c5602af7742d4d1",
             "remark": "Built by GCC"
         },
         {
@@ -90,7 +90,7 @@
             "machines": ["armv5"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "5b9ed440cc632953cb84ade97d328f986fe50cf0dfe771beff4373c84e45d717",
+            "sha256": "daa1db0c18960acc7323db2f80e8cf2ead847f055102eb63b91bd244798529ce",
             "remark": "32-bit Armv5 (arm926ej-s)"
         },
         {
@@ -101,7 +101,7 @@
             "machines": ["armv7l"],
             "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
-            "sha256": "274a58c14006082411b76449393a531c94931e928f58eaa4542f5aa4e18b7d88",
+            "sha256": "e0c13d722206683c8101fbd56b3a78313a2634a46fab9c3a8b8832ad513c753f",
             "remark": "32-bit Armv7 Cortex-A, hard-float, little-endian"
         },
         {
@@ -112,7 +112,7 @@
             "machines": ["aarch32"],
             "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
-            "sha256": "f300802abb4489fedc1beaf4ba682e4354cf90498e6d09d9a9481cfefd8ee889",
+            "sha256": "f2504e54d37efe1d2d9c96145622c234b10870c169a51334837cfd2a36fd99fc",
             "remark": "32-bit Armv8 Cortex-A, hard-float, little-endian"
         },
         {
@@ -123,7 +123,7 @@
             "machines": ["aarch64"],
             "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.so",
-            "sha256": "c6f20072f129f2ac2e0d7b95f9f92350a508e1d0bc4bf3724bd58dc2a8afb0ad",
+            "sha256": "0a4feb9a64ca506da6ebb55cc8e30b862b2e34aead07d4270697472112e95b65",
             "remark": "64-bit Armv8 Cortex-A, little-endian"
         },
         {
@@ -134,7 +134,7 @@
             "machines": ["aarch64"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "4be0e42a3da64dd17baaf466293aa63009b59a0edc084fcdbab2b4119b1eb6a2",
+            "sha256": "7409ffd5682fbed375a3dbb984eacaaf1e60de770311bfd78c2281b06eaf5758",
             "remark": "Build by android-ndk-r20/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang"
         },
         {
@@ -145,7 +145,7 @@
             "machines": ["armv7l"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "09828e150899ced305a792ac36846c94937feab3ed63813bbeb7764652081310",
+            "sha256": "bf287c9c8372048fd011f848832d606305509c61a68f37621454e29be1ac1f8d",
             "remark": "Build by android-ndk-r20/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-android21-clang"
         },
         {
@@ -156,7 +156,7 @@
             "machines": ["ppc64le"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "95f70f714f597ea22d1575c64947b26eb7d41f74200c6cdefafa522233ade25b",
+            "sha256": "8b91b7c7e23404fa246958c32ba1c8d29eef9fbaf0ea6eac6d8a3be3bb5cd573",
             "remark": "For POWER8"
         },
         {
@@ -178,7 +178,7 @@
             "machines": ["x86_64"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "efd046f49d9eea04f8e24a597d71c74a0b875793d0b9aabdc8852481d2233e6b",
+            "sha256": "7d445a1e3cab2da8f4456ee8a479beacba0993abd0d7485d32a77948c240fd83",
             "remark": "Not support harddisk serial number"
         },
         {
@@ -189,7 +189,7 @@
             "machines": ["x86_64"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "29eb2de0ecd9a3d12fee8902af1f263601301b7901cb25bd00947d68005e4db7",
+            "sha256": "e37a2bbac35647c491d31191f4fbdc830ec4f7c381ad88240800f7cfacf89e06",
             "remark": "Built with musl-1.1.21 for Docker"
         },
         {
@@ -200,7 +200,7 @@
             "machines": ["armv5t", "armv7l"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "5862e5a82a6fdb9d400e1ef17f0ea18373f9fa21db2fe676b5ab5ffe153b6c09",
+            "sha256": "040ad1bbc4322e350814858b48b745ea6e67fc9545e79980940e84439ddc4346",
             "remark": "Built with musl-1.1.21, 32 bit Armv5T, hard-float, little-endian"
         },
         {
@@ -211,7 +211,7 @@
             "machines": ["x86", "i386", "i486", "i586", "i686"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "d890137a0b0ae0b9d2cfd0db79171bbfb86a90ac2e3ac48fbef2c771f5dddb61",
+            "sha256": "177a6e67d410b6c80f1d3b383a639db017945fa0c5c6beea2dfa9bf14aba897f",
             "remark": "Work for Inel Quark, Cross compile by i586-poky-linux"
         },
         {
@@ -222,7 +222,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.so",
-            "sha256": "af1f26a247ea5d1e3be03217a1034efced9f9fd39545e18702974597700cb564",
+            "sha256": "b009c08ea2a179084eb59525cd727bc7308a63b9afa931062dc349cdf88da8ef",
             "remark": "Cloned from linux.x86_64, patched for glibc < 2.14"
         },
         {
@@ -255,7 +255,7 @@
             "machines": ["i386", "i486", "i586", "i686", "x86"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "6d03800f4c38ce634a2e02bf402e6487c17fa89394bb131d901bf7b9089a9259",
+            "sha256": "c936d1e653e0d7a4ef0f6b9dd90242fb547f5cab8a168bf9036a9751ed16b960",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -266,7 +266,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "853f98ef45be2ff37fffe6ea2bff490aa91dde43c8c36c1380912eb37c22af28",
+            "sha256": "3a40b611babfd11e6db245af97af32434033d9872cb5e62e6d35fc7dc7da5b3a",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -288,7 +288,7 @@
             "machines": ["armv6l"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "8a319b74d38e2f2d9eb783e4e70fc7249d2ebf413325e1a43d2818d495690113",
+            "sha256": "b9e947217525a0e20282646ac06019a9e5a7094e2afcad3e7be9cf110f19ccfc",
             "remark": "No any extra features, built with `-march=armv6 -mfloat-abi=hard -marm`"
         },
         {
@@ -299,7 +299,7 @@
             "machines": ["armv7l"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "b5ca812711ce96f9b6be3a251bcef65cd1cdb1baab02c5ced74ff2d96d97cbf5",
+            "sha256": "3cff97506479154788fca7919a0aa15fb3cf24f95599f11dc4c877acff0d9e04",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -321,7 +321,7 @@
             "machines": ["aarch32"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "08a87fa754ee9c6c07c9b1529cd4b381d2a4dd254a600e32e4a4fa0c57bfc090",
+            "sha256": "48826af29f71c2342f0e9a82bafae5d687a4e6f607640beb064835995637db3a",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -332,7 +332,7 @@
             "machines": ["aarch64"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "90ab8d862e0b3d551f45c00de671804cbba9533b7f8507c0c29ccf2c0e0674f6",
+            "sha256": "06cdd1e4dc516df19a139ab119d98587a7eb1070e918e9a98357e9a0ec75e35a",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -343,7 +343,7 @@
             "machines": ["mips"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "6b77875c8c840829fc72557748e88829779c09dd6940a03883ae9aebd8258f9d",
+            "sha256": "24135ef5a02d248c27ce0c7aaddd4b841619d22430accd45d9fbce93ac883ea7",
             "remark": "For openwrt, simple and quick, no any feature"
         },
         {
@@ -354,7 +354,7 @@
             "machines": ["mips64"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "a282fc678b442ee4defcf5dbfdb7b8113a2eedbec199846fb9b9be1a20ede5ee",
+            "sha256": "649dfeccee75e991a96e3078e7a2df281bd6e721704e3296f3aa2726320992b9",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -365,7 +365,7 @@
             "machines": ["mips64el"],
             "features": [],
             "filename": "_pytransform.so",
-            "sha256": "fd9594c25423c2b0298bd50a1c6a6de391140ea914ecfa35714abe54886ff80a",
+            "sha256": "9c440e80089a7c83fc98606e559635cddb2d5dceb816dc3c3d7190e00b9789f4",
             "remark": "Simple and quick, no any feature"
         },
         {
@@ -409,7 +409,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-38-x86_64-linux-gnu.so",
-            "sha256": "4e5d4abd701e0c71be8869478ccc0c66403cb921e68263afd26206ef0174d52e",
+            "sha256": "b4cb12629ad97cfce71e2daf5ee981b8fcf6c37cccdc8e7861b5fdef81334414",
             "remark": "Super mode library"
         },
         {
@@ -420,7 +420,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-37m-x86_64-linux-gnu.so",
-            "sha256": "5adc8aa26720eb869002d122574ddc06d3c4425964b09976a07f6bb301d61348",
+            "sha256": "d21b803f5d9af5c304cbb6a16404308076055fe028d54c2ae7fdd0fa9bf57a44",
             "remark": "Super mode library"
         },
         {
@@ -431,7 +431,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.so",
-            "sha256": "ce752a1ad6a0fe5955391bf27f1de63f6094cf9c1baed9ee1ba20fad496aa9db",
+            "sha256": "203e707ceb5cf92dd43f9250acd184f64f752643902d87e2b47135c6925bfb91",
             "remark": "Super mode library"
         },
         {
@@ -442,7 +442,7 @@
             "machines": ["i386", "i486", "i586", "i686", "x86"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-38-i386-linux-gnu.so",
-            "sha256": "1f75c9f198518be11b18a8d7ff7c51efc997a8305c4552a343d09e5080f7de9a",
+            "sha256": "eea2d82a4d87f85b7e741fa02361991641e2bb3245117b9fbde33b870f929308",
             "remark": "Super mode library"
         },
         {
@@ -453,7 +453,7 @@
             "machines": ["i386", "i486", "i586", "i686", "x86"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-37m-i386-linux-gnu.so",
-            "sha256": "26a00c3c1dbd61ed9b6cac3d9ae328205207d4d661e2cf3fccddae231b896529",
+            "sha256": "a6c3703504d7a6e420a6b0e6e48c259a270b833d0d90de9a6d1735a43dadea92",
             "remark": "Super mode library"
         },
         {
@@ -464,7 +464,7 @@
             "machines": ["i386", "i486", "i586", "i686", "x86"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.so",
-            "sha256": "747a211d0deb2488b1c2e4a5e1c2f77f7fb8256186bfbd09f552c4027c380e07",
+            "sha256": "833f470416cb011d2aa5a4e00fbccd95976e331b76f29f3a33d0cf97dcf42c71",
             "remark": "Super mode library"
         },
         {
@@ -541,7 +541,7 @@
             "machines": ["aarch64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-38-aarch64-linux-gnu.so",
-            "sha256": "54a37c8b31188f2ef5eea50d99451e623973bd7eeeddebdf63123781b21bd9ad",
+            "sha256": "9c78068b0fd3ceb3f5018126560c696007442b9aaa789131e6dd7bede173c2a2",
             "remark": "Super mode library"
         },
         {
@@ -552,7 +552,7 @@
             "machines": ["aarch64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-37m-aarch64-linux-gnu.so",
-            "sha256": "2aaee3015ab67480501b80937aedafc04c1c006ef936799e313f396116ca29df",
+            "sha256": "164ae7b634a99b5412599a695ee97a52523e0ffb7cb777c8057b85515941a0cf",
             "remark": "Super mode library"
         },
         {
@@ -563,7 +563,7 @@
             "machines": ["aarch64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.so",
-            "sha256": "9a135e74fb6005377abe534621b9c8941df3c45b39e21d6898960aa1324bdd82",
+            "sha256": "e58ca5c10f793d9257401e23df5f5800ab7d07cc6c7d7bca5d951090cde02d54",
             "remark": "Super mode library"
         },
         {
@@ -574,7 +574,7 @@
             "machines": ["aarch32"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-38-arm-linux-gnu.so",
-            "sha256": "2d41a197ff32c80e8b79510bab907e1d0754bb585c1a75e53dae0259c73b5b5a",
+            "sha256": "bda8eac062f55155fd7d6db1be82ce517ec89eee7c0dea4a8e6c1fa4736a1a2b",
             "remark": "Super mode library"
         },
         {
@@ -585,7 +585,7 @@
             "machines": ["aarch32"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-37m-arm-linux-gnu.so",
-            "sha256": "1c4794e9479f3b0bac4d60d1e7411a7e507c1fa857de28179321aa076e59d986",
+            "sha256": "071a15c3cea10acc671f05bb5c9448f5622cdcb4701c8372f7668249cc78eda7",
             "remark": "Super mode library"
         },
         {
@@ -596,7 +596,7 @@
             "machines": ["aarch32"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.so",
-            "sha256": "e9448767a26f05f13398d18d577b8849919eb1f0f016868123e3c37246d0de8d",
+            "sha256": "617425054e47ce27fe82df6937b2968db21bb0a4262355d4796e094dd9696c57",
             "remark": "Super mode library"
         },
         {
@@ -607,7 +607,7 @@
             "machines": ["armv7l"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-38-arm-linux-gnu.so",
-            "sha256": "197253c123699bb3797bd50b1b5e711227aaa85895d8b9c04fe3126392cec451",
+            "sha256": "adbec6e270d5a53c4a399efb1709ae79505a2dffd6ed91e7627c98b01eb0692f",
             "remark": "Super mode library"
         },
         {
@@ -618,7 +618,7 @@
             "machines": ["armv7l"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-37m-arm-linux-gnu.so",
-            "sha256": "2a830d03f31f6e8afaf7b7a1b5c4430ea592725d0c0614d60eb5936b87fcacf9",
+            "sha256": "27b4fb2d2437e2a797ce19211ba62e7043c2bf2e18c8505f863b8a7d3bc5c226",
             "remark": "Super mode library"
         },
         {
@@ -629,7 +629,7 @@
             "machines": ["armv7l"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.so",
-            "sha256": "2d39438c35107e910ca1e5e7efec7e26feec70566082d50c85c473cbcfa5cfcb",
+            "sha256": "efc4d145df16b1ba120cd209877148e1d35a21147fdc87f8e70591d5815244f2",
             "remark": "Super mode library"
         },
         {
