@@ -1,3 +1,4 @@
+set -e
 prefix="root@snsoffice.com:/var/www/pyarmor/downloads"
 
 for path in ./ ; do
@@ -11,6 +12,7 @@ for path in ./ ; do
         # fi
         dest="$prefix/latest/$platform"
         echo "Upload $src to $dest"
+        ssh -i ~/.ssh/aliyun_id_rsa root@snsoffice.com "mkdir -p /var/www/pyarmor/downloads/latest/$platform"
         scp -i ~/.ssh/aliyun_id_rsa $src $dest
     done
     echo "-----------------------------------------"
