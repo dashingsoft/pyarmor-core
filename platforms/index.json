@@ -1,8 +1,8 @@
 {
-    "version": "r35.9",
-    "build_time:": "2020-10-20 11:28:52",
+    "version": "r35.9a",
+    "build_time:": "2020-10-25 10:25:50",
     "compatible": "PyArmor >= 6.3.0",
-    "changes": "Fix Python 3.8 super mode issue; Fix Python 3.8 doesn't work issue",
+    "changes": "Add Python 3.9 super mode",
     "remark": "",
     "platforms": [
         {
@@ -380,6 +380,17 @@
             "remark": "Simple and quick, no any feature"
         },
         {
+            "id": "darwin.x86_64.11.py39",
+            "name": "darwin.x86_64",
+            "platform": "darwin",
+            "path": "darwin.x86_64.11.py39",
+            "machines": ["x86_64", "intel", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-39-darwin.so",
+            "sha256": "946562186ab85fded2bcce4a00fad848d9cf7c4e318e0331ab2e527b4de918a6",
+            "remark": "Super mode library"
+        },
+        {
             "id": "darwin.x86_64.11.py38",
             "name": "darwin.x86_64",
             "platform": "darwin",
@@ -410,6 +421,17 @@
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.so",
             "sha256": "3713c761a67d9c17ee88c1fc21ce772a4c6662917fde51e0e793913f9c113311",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.x86_64.11.py39",
+            "name": "linux.x86_64",
+            "platform": "linux",
+            "path": "linux.x86_64.11.py39",
+            "machines": ["x86_64", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-39-x86_64-linux-gnu.so",
+            "sha256": "288ba5c053d6600cb474974b784888150dffb1359205bea53d70468d0975df2f",
             "remark": "Super mode library"
         },
         {
@@ -446,6 +468,17 @@
             "remark": "Super mode library"
         },
         {
+            "id": "linux.x86.11.py39",
+            "name": "linux.x86",
+            "platform": "linux",
+            "path": "linux.x86.11.py39",
+            "machines": ["i386", "i486", "i586", "i686", "x86"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-39-i386-linux-gnu.so",
+            "sha256": "703447a7d2d7e776a87410e271dd9b500b56c9ebe86e9f8e39eeb5811b21aa9f",
+            "remark": "Super mode library"
+        },
+        {
             "id": "linux.x86.11.py38",
             "name": "linux.x86",
             "platform": "linux",
@@ -476,6 +509,17 @@
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.so",
             "sha256": "79b48f7742681f48c98960b33616f6000dbae3a30aab7339ba91a5a044766371",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "windows.x86_64.11.py39",
+            "name": "windows.x86_64",
+            "platform": "windows",
+            "path": "windows.x86_64.11.py39",
+            "machines": ["x64", "amd64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.pyd",
+            "sha256": "3e70b0b63d12c2d06fbde30987266d8ec0b477680a4beb5d269a294bee3047bf",
             "remark": "Super mode library"
         },
         {
@@ -512,6 +556,17 @@
             "remark": "Super mode library"
         },
         {
+            "id": "windows.x86.11.py39",
+            "name": "windows.x86",
+            "platform": "windows",
+            "path": "windows.x86.11.py39",
+            "machines": ["x86"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.pyd",
+            "sha256": "ebe1791a9eefb34961e3c70f4c6e0ef4d564e5bffae52f4f522d5cd5b919b781",
+            "remark": "Super mode library"
+        },
+        {
             "id": "windows.x86.11.py38",
             "name": "windows.x86",
             "platform": "windows",
@@ -542,6 +597,17 @@
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
             "sha256": "0e9d193d2ac563256190ea46f0076121a0ed08f725afa7910c8a978cf6474ba8",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.aarch64.11.py39",
+            "name": "linux.aarch64",
+            "platform": "linux",
+            "path": "linux.aarch64.11.py39",
+            "machines": ["aarch64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-39-aarch64-linux-gnu.so",
+            "sha256": "a45027fd8f11bc525528363edc227490729d5df90c98ac81397fbfa99e3890e9",
             "remark": "Super mode library"
         },
         {
@@ -578,6 +644,17 @@
             "remark": "Super mode library"
         },
         {
+            "id": "linux.aarch32.11.py39",
+            "name": "linux.aarch32",
+            "platform": "linux",
+            "path": "linux.aarch32.11.py39",
+            "machines": ["aarch32"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-39-arm-linux-gnu.so",
+            "sha256": "d3b89b648574ea3a4220f24efc6c7940ea4ba8d431c0e5bc0517c9542606c2fc",
+            "remark": "Super mode library"
+        },
+        {
             "id": "linux.aarch32.11.py38",
             "name": "linux.aarch32",
             "platform": "linux",
@@ -611,6 +688,17 @@
             "remark": "Super mode library"
         },
         {
+            "id": "linux.armv7.11.py39",
+            "name": "linux.armv7",
+            "platform": "linux",
+            "path": "linux.armv7.11.py39",
+            "machines": ["armv7l"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-39-arm-linux-gnu.so",
+            "sha256": "2b58fde841d1e39bb0f1779c88fe545a00c09af1e3b247b25adc99c1ed23b8a1",
+            "remark": "Super mode library"
+        },
+        {
             "id": "linux.armv7.11.py38",
             "name": "linux.armv7",
             "platform": "linux",
@@ -641,6 +729,17 @@
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.so",
             "sha256": "161faf9df608f87a3e8f47be4fd23bf474e5ec89624405e26ed3f8972b26f876",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "linux.armv6.11.py39",
+            "name": "linux.armv6",
+            "platform": "linux",
+            "path": "linux.armv6.11.py39",
+            "machines": ["armv6l"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-39-arm-linux-gnu.so",
+            "sha256": "097217cb3d9d977d34f00b409d0620580e5bedf46740fee14e41c7181d63ebad",
             "remark": "Super mode library"
         },
         {
@@ -699,6 +798,17 @@
             "remark": "Cross compile by x86_64-w64-mingw32-gcc in cygwin"
         },
         {
+            "id": "windows.x86_64.25.py39",
+            "name": "windows.x86_64",
+            "platform": "windows",
+            "path": "windows.x86_64.25.py39",
+            "machines": ["x64", "amd64"],
+            "features": ["VM", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.pyd",
+            "sha256": "255e952633b1938b53e569c2289c2dba09f9d45fd3a469c69dc761296b619bcd",
+            "remark": "Super mode library"
+        },
+        {
             "id": "windows.x86_64.25.py38",
             "name": "windows.x86_64",
             "platform": "windows",
@@ -729,6 +839,17 @@
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
             "sha256": "38b9be8779495d173fa2f80dd889914538ee88d736d8f36a5857711b67e9448c",
+            "remark": "Super mode plus vm library"
+        },
+        {
+            "id": "windows.x86.25.py39",
+            "name": "windows.x86",
+            "platform": "windows",
+            "path": "windows.x86.25.py39",
+            "machines": ["x86"],
+            "features": ["VM", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.pyd",
+            "sha256": "752de049d645f64b10464d375ea860d65ff42bb19266692a32fd73aa135ed7d6",
             "remark": "Super mode plus vm library"
         },
         {
