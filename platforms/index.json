@@ -465,7 +465,18 @@
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.so",
             "sha256": "d789d7f4eeccd8ff95133c11f907d3fd77c24231c75aecef11b5df6e223ca171",
-            "remark": "Super mode library"
+            "remark": "Super mode library, UCS4"
+        },
+        {
+            "id": "centos6.x86_64.11.py27",
+            "name": "centos6.x86_64",
+            "platform": "linux",
+            "path": "centos6.x86_64.11.py27",
+            "machines": ["x86_64", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.so",
+            "sha256": "e4abc5f423977ffcaf6331dd8a4eaa3877be6d75b456239a7c02c4aa5b0fca7b",
+            "remark": "Super mode library, UCS2"
         },
         {
             "id": "linux.x86.11.py39",

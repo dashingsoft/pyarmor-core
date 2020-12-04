@@ -64,6 +64,8 @@ scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.x86_64.11.py27ucs4/pytransfor
     ./linux.x86_64.11.py27
 scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.x86.11.py27ucs4/pytransform*.so \
     ./linux.x86.11.py27
+scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.x86_64.11.py27/pytransform*.so \
+    ./centos6.x86_64.11.py27
 
 if [[ $(uname) == 'Darwin' ]] ; then
     scp -i $IDFILE $RPATH/pyarmor-core/platforms/win32/_pytransform.dll ./win32

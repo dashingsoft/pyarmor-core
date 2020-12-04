@@ -32,6 +32,9 @@ if __name__ == '__main__':
     print('Patch centos6')
     os.system('bash patch-centos6.sh')
 
+    print('Patch centos6.x86_64.11.py27')
+    os.system('bash patch-centos6.sh centos6.x86_64.11.py27')
+
     filename = 'index.json'
     make_hash256(filename)
 
