@@ -6,6 +6,11 @@ if [[ "$dest" == "centos6.x86_64" ]] ; then
     filename=_pytransform.so
     echo "Copy $src to $dest"
     cp $src/$filename $dest
+    let -i srcoffset=0x10
+    let -i destoffset=0x40
+else
+    let -i srcoffset=0x50
+    let -i destoffset=0x20
 fi
 echo "Patching $dest/$filename"
 
@@ -21,12 +26,12 @@ if [[ -z "$offset" ]] ; then
 fi
 echo "Offset of section '.gnu.version_r': $offset"
 
-let -i addr1=$(( $offset + 0x10 ))
-let -i addr2=$(( $offset + 0x40 ))
+let -i addr1=$(( $offset + $srcoffset ))
+let -i addr2=$(( $offset + $destoffset ))
 echo "Copy 4 bytes from $(printf '%x' $addr1) to $(printf '%x' $addr2)"
 xxd -s $addr1 -l 4 $dest/$filename | sed "s/$(printf '%x' $addr1)/$(printf '%x' $addr2)/" | xxd -r - $dest/$filename
 
-let -i addr1=$(( $offset + 0x18 ))
-let -i addr2=$(( $offset + 0x48 ))
+let -i addr1=$(( $offset + $srcoffset + 0x8 ))
+let -i addr2=$(( $offset + $destoffset + 0x8 ))
 echo "Copy 4 bytes from $(printf '%x' $addr1) to $(printf '%x' $addr2)"
 xxd -s $addr1 -l 4 $dest/$filename | sed "s/$(printf '%x' $addr1)/$(printf '%x' $addr2)/" | xxd -r - $dest/$filename

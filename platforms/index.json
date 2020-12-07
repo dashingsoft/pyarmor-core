@@ -475,7 +475,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.so",
-            "sha256": "e4abc5f423977ffcaf6331dd8a4eaa3877be6d75b456239a7c02c4aa5b0fca7b",
+            "sha256": "10603bb6f1915875d726c2b74e370b78557a9eadff3a3ec9ecd8f65a3e2b6daa",
             "remark": "Super mode library, UCS2"
         },
         {
