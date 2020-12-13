@@ -57,7 +57,7 @@
             "machines": ["x86_64", "intel", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dylib",
-            "sha256": "bb7ff557de0a9d5705ed89a18a89e305190e3c1cb459d265915fda9153a76fce",
+            "sha256": "f3c3d03fd27f93b8f252cccfc77a0ab566b23e859a397fd9e59d8db440bf2107",
             "remark": "Built by CLang with MacOSX10.11"
         },
         {
@@ -125,6 +125,17 @@
             "filename": "_pytransform.so",
             "sha256": "1a01842b7dcd3be7686c31bcb6a5886a23e25780962880a1bba5e6042c2b41ba",
             "remark": "64-bit Armv8 Cortex-A, little-endian"
+        },
+        {
+            "id": "darwin.arm64.3",
+            "name": "darwin.arm64",
+            "platform": "darwin",
+            "path": "ios.arm64.3",
+            "machines": ["arm64", "aarch64"],
+            "features": ["JIT", "ANTI-DEBUG"],
+            "filename": "_pytransform.dylib",
+            "sha256": "cb6ee038cf3baaacc156cf93df7c0c5fd36940f1a0b6ea8b0c3757e6c977a9fc",
+            "remark": "Built by CLang with iPhoneOS9.3.sdk"
         },
         {
             "id": "android.aarch64.0",
@@ -785,6 +796,28 @@
             "filename": "pytransform.so",
             "sha256": "01e0a8c4e104cff9452dfcc5e6c0858c12c2ea27cb1160eb48ac750b68c24f45",
             "remark": "Super mode library"
+        },
+        {
+            "id": "darwin.arm64.11.py39",
+            "name": "darwin.arm64",
+            "platform": "darwin",
+            "path": "ios.arm64.11.py39",
+            "machines": ["arm64", "aarch64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-39-darwin.so",
+            "sha256": "9b50902c56a6282579d942334dc707849ea72da174a4c260204f27ba8a4e496d",
+            "remark": "Built by CLang with iPhoneOS9.3.sdk"
+        },
+        {
+            "id": "darwin.arm64.11.py38",
+            "name": "darwin.arm64",
+            "platform": "darwin",
+            "path": "ios.arm64.11.py38",
+            "machines": ["arm64", "aarch64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-38-darwin.so",
+            "sha256": "1097a2e7a6b307a57e65f4feedf39f16a88278332908047d1195873009114542",
+            "remark": "Built by CLang with iPhoneOS9.3.sdk"
         },
         {
             "id": "windows.x86.21",
