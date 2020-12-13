@@ -127,8 +127,8 @@
             "remark": "64-bit Armv8 Cortex-A, little-endian"
         },
         {
-            "id": "darwin.arm64.3",
-            "name": "darwin.arm64",
+            "id": "darwin.aarch64.3",
+            "name": "darwin.aarch64",
             "platform": "darwin",
             "path": "ios.arm64.3",
             "machines": ["arm64", "aarch64"],
@@ -171,11 +171,11 @@
             "remark": "For POWER8"
         },
         {
-            "id": "darwin.arm64.0",
-            "name": "darwin.arm64",
+            "id": "darwin.aarch64.0",
+            "name": "darwin.aarch64",
             "platform": "darwin",
             "path": "ios.arm64",
-            "machines": ["arm64"],
+            "machines": ["arm64", "aarch64"],
             "features": [],
             "filename": "_pytransform.dylib",
             "sha256": "94e4412b0abf06dbd5bed3b90d58fb2de8014ad2adbf5fe474901baef01bbbde",
@@ -798,8 +798,8 @@
             "remark": "Super mode library"
         },
         {
-            "id": "darwin.arm64.11.py39",
-            "name": "darwin.arm64",
+            "id": "darwin.aarch64.11.py39",
+            "name": "darwin.aarch64",
             "platform": "darwin",
             "path": "ios.arm64.11.py39",
             "machines": ["arm64", "aarch64"],
@@ -809,8 +809,8 @@
             "remark": "Built by CLang with iPhoneOS9.3.sdk"
         },
         {
-            "id": "darwin.arm64.11.py38",
-            "name": "darwin.arm64",
+            "id": "darwin.aarch64.11.py38",
+            "name": "darwin.aarch64",
             "platform": "darwin",
             "path": "ios.arm64.11.py38",
             "machines": ["arm64", "aarch64"],
