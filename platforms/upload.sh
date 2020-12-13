@@ -1,6 +1,15 @@
 set -e
 prefix="root@snsoffice.com:/var/www/pyarmor/downloads"
 
+ver=$1
+if [[ -z "$ver" ]] ; then
+    echo "No version specified"
+    exit 1
+fi
+
+echo "Create remote path: /var/www/pyarmor/downloads/$ver"
+ssh -i ~/.ssh/aliyun_id_rsa root@snsoffice.com "rm -rf /var/www/pyarmor/downloads/$ver; cd /var/www/pyarmor/downloads; mkdir $ver"
+
 for path in ./ ; do
     echo "Search path $path ..."
     echo "-----------------------------------------"
@@ -10,9 +19,9 @@ for path in ./ ; do
         #   platform=$(dirname $src)
         #   platform=${platform#./}
         # fi
-        dest="$prefix/latest/$platform"
+        dest="$prefix/$ver/$platform"
         echo "Upload $src to $dest"
-        ssh -i ~/.ssh/aliyun_id_rsa root@snsoffice.com "mkdir -p /var/www/pyarmor/downloads/latest/$platform"
+        ssh -i ~/.ssh/aliyun_id_rsa root@snsoffice.com "mkdir -p /var/www/pyarmor/downloads/$ver/$platform"
         scp -i ~/.ssh/aliyun_id_rsa $src $dest
     done
     echo "-----------------------------------------"
@@ -25,11 +34,5 @@ done
 # Update hash of dynamic library
 # python make-hash.py
 
-echo "Upload index.json to $prefix/latest"
-scp -i ~/.ssh/aliyun_id_rsa index.json $prefix/latest/
-
-ver=$1
-if [[ -n "$ver" ]] ; then
-    echo "Copy latest to remote path: /var/www/pyarmor/downloads/$ver"
-    ssh -i ~/.ssh/aliyun_id_rsa root@snsoffice.com "rm -rf /var/www/pyarmor/downloads/$ver; cd /var/www/pyarmor/downloads; cp -a latest/ $ver"
-fi
+echo "Upload index.json to $prefix/$ver"
+scp -i ~/.ssh/aliyun_id_rsa index.json $prefix/$ver/
