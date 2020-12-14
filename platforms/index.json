@@ -57,7 +57,7 @@
             "machines": ["x86_64", "intel", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dylib",
-            "sha256": "f3c3d03fd27f93b8f252cccfc77a0ab566b23e859a397fd9e59d8db440bf2107",
+            "sha256": "97ac1d32df7fef454ab632a2147eea50b4c8b99901978af5526b8832f439844f",
             "remark": "Built by CLang with MacOSX10.11"
         },
         {
@@ -134,7 +134,7 @@
             "machines": ["arm64", "aarch64"],
             "features": ["JIT", "ANTI-DEBUG"],
             "filename": "_pytransform.dylib",
-            "sha256": "cb6ee038cf3baaacc156cf93df7c0c5fd36940f1a0b6ea8b0c3757e6c977a9fc",
+            "sha256": "2cbd0cb7f4760fdc68b21b955c8c5ec06dcbef13b0aeddf3510272d1508b182a",
             "remark": "Built by CLang with iPhoneOS9.3.sdk"
         },
         {
