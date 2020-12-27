@@ -38,5 +38,5 @@ scp -i ~/.ssh/aliyun_id_rsa index.json $svruser:$svrpath/$ver/
 
 if [[ -n "$2" ]] ; then
     echo "Update latest to $ver"
-    ssh -i ~/.ssh/aliyun_id_rsa $svruser "cd $svrpath; ln -fs $ver latest"
+    ssh -i ~/.ssh/aliyun_id_rsa $svruser "cd $svrpath; rm -f latest; ln -fs $ver latest"
 fi
