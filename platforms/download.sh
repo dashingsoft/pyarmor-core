@@ -40,6 +40,7 @@ scp -i $IDFILE $RPATH/pytransform/cross-platform/uclibc.armv7/.libs/_pytransform
 scp -i $IDFILE $RPATH/pytransform/cross-platform/musl.mips32/.libs/_pytransform.so ./musl.mips32.0
 scp -i $IDFILE $RPATH/pytransform/cross-platform/linux.mips64/.libs/_pytransform.so ./linux.mips64.0
 scp -i $IDFILE $RPATH/pytransform/cross-platform/linux.mips64el/.libs/_pytransform.so ./linux.mips64el.0
+scp -i $IDFILE $RPATH/pytransform/cross-platform/musl.x86_64/.libs/_pytransform.so ./musl.x86_64.7
 
 for v in 27 37 38 39 ; do
     scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.x86_64.11.py${v}/pytransform*.so \
@@ -58,6 +59,8 @@ for v in 27 37 38 39 ; do
         ./linux.armv7.11.py${v}
     scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.armv6.11.py${v}/pytransform*.so \
         ./linux.armv6.11.py${v}
+    scp -i $IDFILE $RPATH/pyarmor-core/platforms/musl.x86_64.11.py${v}/pytransform*.so \
+        ./musl.x86_64.11.py${v}
 done
 
 scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.x86_64.11.py27ucs4/pytransform*.so \
@@ -72,6 +75,8 @@ scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.armv7.11.py27ucs4/pytransform
     ./linux.armv7.11.py27
 scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.armv6.11.py27ucs4/pytransform*.so \
     ./linux.armv6.11.py27
+scp -i $IDFILE $RPATH/pyarmor-core/platforms/musl.x86_64.11.py27ucs4/pytransform*.so \
+    ./musl.x86_64.11.py27
 scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.x86_64.11.py27/pytransform*.so \
     ./centos6.x86_64.11.py27
 

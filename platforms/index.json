@@ -1,8 +1,8 @@
 {
-    "version": "r38.12",
-    "build_time:": "2020-12-09 14:07:52",
+    "version": "r38.12a",
+    "build_time:": "2020-12-28 12:52:00",
     "compatible": "PyArmor >= 6.3.0",
-    "changes": "Fix exception is not clear in non-super mode for Python2.7",
+    "changes": "Add super mode library for musl.x86_64",
     "remark": "",
     "platforms": [
         {
@@ -59,6 +59,17 @@
             "filename": "_pytransform.dylib",
             "sha256": "97ac1d32df7fef454ab632a2147eea50b4c8b99901978af5526b8832f439844f",
             "remark": "Built by CLang with MacOSX10.11"
+        },
+        {
+            "id": "musl.x86_64.7",
+            "name": "musl.x86_64",
+            "platform": "linux",
+            "path": "musl.x86_64.7",
+            "machines": ["x86_64", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "ADV"],
+            "filename": "_pytransform.so",
+            "sha256": "ee61f5f79a6b9fa2b84f1fb35fe704006a9e3b68e7e4cc41c9dfccb56fd9215f",
+            "remark": "Built with musl-1.1.21 for Docker"
         },
         {
             "id": "vs2015.x86.0",
@@ -195,7 +206,7 @@
         {
             "id": "musl.x86_64.0",
             "name": "musl.x86_64",
-            "platform": "alpine",
+            "platform": "linux",
             "path": "alpine",
             "machines": ["x86_64"],
             "features": [],
@@ -206,7 +217,7 @@
         {
             "id": "musl.arm.0",
             "name": "musl.arm",
-            "platform": "alpine",
+            "platform": "linux",
             "path": "alpine.arm",
             "machines": ["armv5t", "armv7l"],
             "features": [],
@@ -488,6 +499,50 @@
             "filename": "pytransform.so",
             "sha256": "e489c49c5d4e2a44e5c7480de120d772c967d48c8bde946009157d0cad20f52d",
             "remark": "Super mode library, UCS2"
+        },
+        {
+            "id": "musl.x86_64.11.py39",
+            "name": "musl.x86_64",
+            "platform": "linux",
+            "path": "musl.x86_64.11.py39",
+            "machines": ["x86_64", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-39-x86_64-linux-gnu.so",
+            "sha256": "787f5e142758cd9cdc7a7b9b6e51458b08303b212e810932d2e063aa774ab549",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "musl.x86_64.11.py38",
+            "name": "musl.x86_64",
+            "platform": "linux",
+            "path": "musl.x86_64.11.py38",
+            "machines": ["x86_64", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-38-x86_64-linux-gnu.so",
+            "sha256": "56d5d6a1a7fbf80b45afb7ecc4adaa168883f6339a0463b8a724a40be8516ac9",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "musl.x86_64.11.py37",
+            "name": "musl.x86_64",
+            "platform": "linux",
+            "path": "musl.x86_64.11.py37",
+            "machines": ["x86_64", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.cpython-37m-x86_64-linux-gnu.so",
+            "sha256": "924ee54c2404531a5ffa96e8e3ee731660e2526fcedfe8c23670a4c3528fa934",
+            "remark": "Super mode library"
+        },
+        {
+            "id": "musl.x86_64.11.py27",
+            "name": "musl.x86_64",
+            "platform": "linux",
+            "path": "musl.x86_64.11.py27",
+            "machines": ["x86_64", "amd64", "x64"],
+            "features": ["JIT", "ANTI-DEBUG", "SUPER"],
+            "filename": "pytransform.so",
+            "sha256": "8d453c18bfb3071a5d04949a69240bc71daba25400b58308c73eecb07324d1f5",
+            "remark": "Super mode library, UCS4"
         },
         {
             "id": "linux.x86.11.py39",
