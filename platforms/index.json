@@ -68,7 +68,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.so",
-            "sha256": "ee61f5f79a6b9fa2b84f1fb35fe704006a9e3b68e7e4cc41c9dfccb56fd9215f",
+            "sha256": "0900807f3ad92714957fb4d41c6e06dff820d86d3283bbc4b26f6d023fa44063",
             "remark": "Built with musl-1.1.21 for Docker"
         },
         {
@@ -508,7 +508,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-39-x86_64-linux-gnu.so",
-            "sha256": "787f5e142758cd9cdc7a7b9b6e51458b08303b212e810932d2e063aa774ab549",
+            "sha256": "f94f9415f99c8b1dd1b1098e4f8544b68d68bedcffd4960cd080eed993992cad",
             "remark": "Super mode library"
         },
         {
@@ -519,7 +519,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-38-x86_64-linux-gnu.so",
-            "sha256": "56d5d6a1a7fbf80b45afb7ecc4adaa168883f6339a0463b8a724a40be8516ac9",
+            "sha256": "796d820e940980b7ccf2e74ba372431ed8f3ab433aaf9fad7bbcbb155cfb3ca1",
             "remark": "Super mode library"
         },
         {
@@ -530,7 +530,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.cpython-37m-x86_64-linux-gnu.so",
-            "sha256": "924ee54c2404531a5ffa96e8e3ee731660e2526fcedfe8c23670a4c3528fa934",
+            "sha256": "9a906430dfdb7700b8a383f8c6366f79ec7e0e71835d0977303dc48e336b09f0",
             "remark": "Super mode library"
         },
         {
@@ -541,7 +541,7 @@
             "machines": ["x86_64", "amd64", "x64"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.so",
-            "sha256": "8d453c18bfb3071a5d04949a69240bc71daba25400b58308c73eecb07324d1f5",
+            "sha256": "9a3f8fd63513cba700520d158764d664b9c9b19c9ad3457f7186fd36934aa5d2",
             "remark": "Super mode library, UCS4"
         },
         {
