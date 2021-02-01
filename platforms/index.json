@@ -1,6 +1,6 @@
 {
     "version": "r40.14",
-    "build_time:": "2021-01-08 14:38:20",
+    "build_time:": "2021-02-01 13:19:20",
     "compatible": "PyArmor >= 6.3.0",
     "changes": "Fix enable period mode issue",
     "remark": "",
@@ -904,7 +904,7 @@
             "machines": ["x86"],
             "features": ["VM", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dll",
-            "sha256": "584d559d3623e8aad3ef57914c08c64b62b9ce6c4a17454df9552ce1079bfdee",
+            "sha256": "8330ae0ec5ee2d08a35bf3a8449339566f796170f5d1530e8a0e4e84d74144d3",
             "remark": "Cross compile by i686-w64-mingw32-gcc in cygwin"
         },
         {
@@ -915,7 +915,7 @@
             "machines": ["amd64", "x86_64", "x64"],
             "features": ["VM", "ANTI-DEBUG", "ADV"],
             "filename": "_pytransform.dll",
-            "sha256": "4213ceb9807518007a0d92e10da504f630fdd5a897ac1ba15769176e5a759d7c",
+            "sha256": "f306a8a2342002a32b0359084b6259cf2a954b79efd99aca1c6e479dae705262",
             "remark": "Cross compile by x86_64-w64-mingw32-gcc in cygwin"
         },
         {
@@ -926,7 +926,7 @@
             "machines": ["x64", "amd64"],
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "8ee9f35e884772b8d2e56462f4744265dd8c93753bf0fd734d066466a3b28183",
+            "sha256": "62aad8b125a54a5783fc1fb748aa1caaf7900b6daa1a9a74ddd81fe45ea6e283",
             "remark": "Super mode library"
         },
         {
@@ -937,7 +937,7 @@
             "machines": ["x64", "amd64"],
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "02b03b11953c043eeea45f013197343d02b9de3082f2d2c2c25ca554cd2f9c49",
+            "sha256": "873ea4f01cfb7dafad12febac08ef636fc7b1b4473ab009f4a2f27801cb7e9a6",
             "remark": "Super mode library"
         },
         {
@@ -948,7 +948,7 @@
             "machines": ["x64", "amd64"],
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "e47d1582a2f3b94e41308a350d2e433b12a4db0ae3879fcb17ec14cd157894da",
+            "sha256": "f2a6687e23d94b507c9e0c41e3a25a45d511c83840b708e2f02af2ce542bd8f3",
             "remark": "Super mode plus vm library"
         },
         {
@@ -959,7 +959,7 @@
             "machines": ["x64", "amd64"],
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "f935a570f1b1f64c900071d3751e50fe590b76ad87bce3ec2fb083e38aca8133",
+            "sha256": "1f88279e733a9cf4a0b002595cca71551361f88c6e5a92fb6c15643f074b68b3",
             "remark": "Super mode plus vm library"
         },
         {
@@ -970,7 +970,7 @@
             "machines": ["x86"],
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "db557101594ac3d70dd2fb5b98ce09f319c29b1988ed3848ab250e7db360dc01",
+            "sha256": "b9f5c64386c928ae977158ed7d1354cc27a19992ced20714136663430a1197c2",
             "remark": "Super mode plus vm library"
         },
         {
@@ -981,7 +981,7 @@
             "machines": ["x86"],
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "62bccfefcb6f7bc08704f3d57d0e06192b04d92601caa65e0a37cb2d70f50f48",
+            "sha256": "78682adb0b8b6e55d790970511bd8822707adccd3d93cd2c90ad183b836bdbff",
             "remark": "Super mode plus vm library"
         },
         {
@@ -992,7 +992,7 @@
             "machines": ["x86"],
             "features": ["vm", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "156e2735ca3d139fccd0ba7748170be095135cfbdc6a17d02769649ead754837",
+            "sha256": "71a0227a94520bc9b24c212f1e19ba638cc790ce1cfeade949203b6880741e04",
             "remark": "Super mode plus vm library"
         },
         {
@@ -1003,7 +1003,7 @@
             "machines": ["x86"],
             "features": ["VM", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "c5f8fd7cc4a2d49a457dd55b8258f1fc5a097a9af1ce93da8b6e9985ce15c6f5",
+            "sha256": "7247f5621d60f3e9059555e7404064bb65a4cbc96b017c44fc411953eef4d6a3",
             "remark": "Super mode plus vm library"
         }
     ]
