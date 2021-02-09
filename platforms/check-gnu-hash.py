@@ -14,18 +14,20 @@ def check_gnu_hash_section(filename):
 
     i = 0
     while True:
-        for key in (0xe746a6ab, 0xb4239787):
+        for key in (0xe746a6ab, 0xb4239787, 0xb4270e0b):
             try:
                 i = arr.index(key, i)
+                kx = 2 if key == 0xb4270e0b else 0
                 break
             except Exception:
                 pass
         else:
             return
 
-        if arr[i-12] == 3 and arr[i-10] == 1 and arr[i-9] == 6:
+        k = i + kx
+        if arr[k-12] == 3 and arr[k-10] == 1 and arr[k-9] == 6:
             return i * 4
-        elif arr[i-11] == 3 and arr[i-9] == 1 and arr[i-8] == 5:
+        elif arr[k-11] == 3 and arr[k-9] == 1 and arr[k-8] == 5:
             return i * 4
         i += 1
 

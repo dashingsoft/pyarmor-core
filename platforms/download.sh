@@ -79,7 +79,7 @@ scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.armv6.11.py27ucs4/pytransform
     ./linux.armv6.11.py27
 scp -i $IDFILE $RPATH/pyarmor-core/platforms/musl.x86_64.11.py27ucs4/pytransform*.so \
     ./musl.x86_64.11.py27
-scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.x86_64.11.py27/pytransform*.so \
+scp -i $IDFILE $RPATH/pyarmor-core/platforms/linux.x86_64.11.py27ucs2/pytransform*.so \
     ./centos6.x86_64.11.py27
 
 if [[ $(uname) == 'Darwin' ]] ; then
