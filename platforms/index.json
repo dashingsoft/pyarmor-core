@@ -684,7 +684,7 @@
             "machines": ["x86"],
             "features": ["JIT", "ANTI-DEBUG", "SUPER"],
             "filename": "pytransform.pyd",
-            "sha256": "a52354a1fc727908c284febc8f99d86f4264fc11fdb032e917ee9ec36a413215",
+            "sha256": "8c5e24bb2cd03c684d9cf53dbfd2d00e5b34fe220644f41d90c25c8663ec0532",
             "remark": "Super mode library"
         },
         {
