@@ -7,10 +7,10 @@ if [[ "$dest" == "centos6.x86_64" ]] ; then
     echo "Copy $src to $dest"
     cp $src/$filename $dest
     let -i srcoffset=0x10
-    let -i destoffset=0x40
+    let -i destoffset=0x30
 else
     let -i srcoffset=0x50
-    let -i destoffset=0x20
+    let -i destoffset=0x10
 fi
 echo "Patching $dest/$filename"
 
